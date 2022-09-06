@@ -7,4 +7,4 @@ Gruppemedlem: + URL TIL IND-REPOSITORY
 <br> Tony Le + https://github.com/TonyLe02/IND-REPOSITORY.git 
 <br> Viknan Chandrakumar + https://github.com/Viknan/IND-REPOSITORY.git
 
-EXELLENT!
+Excellent!
