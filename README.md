@@ -5,6 +5,6 @@ Gruppemedlem: + URL TIL IND-REPOSITORY
 <br> Kjetil 
 <br> Johannes Aslaksen + https://github.com/johannesUIA/IND-REPOSITORY.git
 <br> Tony Le + https://github.com/TonyLe02/IND-REPOSITORY.git 
-<br> Viknan 
+<br> Viknan +
 
 EXELLENT!
