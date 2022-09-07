@@ -8,3 +8,7 @@ Gruppemedlem: + URL TIL IND-REPOSITORY
 <br> Viknan Chandrakumar + https://github.com/Viknan/IND-REPOSITORY.git
 
 Excellent!
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
