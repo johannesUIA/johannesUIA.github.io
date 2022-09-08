@@ -10,7 +10,7 @@
 
 
 - Møtelogg for GitHub 08.09.2022
-<br> -Gruppeoppmøte: Andreas, Bunyamin, Kjetil, Johannes, Tony og Viknan.
+- <br> Gruppeoppmøte: Andreas, Bunyamin, Kjetil, Johannes, Tony og Viknan.
 - Alle i gruppen lagde en bruker hos Github.
 - Deretter opprettet alle en individuel repository kalt "IND-REPOSITORY"
 - Igjen valgte gruppen ut at Johannes opprettet en felles GRUPPE-REPOSITORY fra sin Github-konto.
