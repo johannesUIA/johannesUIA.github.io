@@ -7,7 +7,7 @@ canvas.height = canvasHeight;
 
 const colors = [
     '#FCD116',
-    '£FCD116',
+    '#FCD116',
     '#003893',
     '#D12229',
 ];
