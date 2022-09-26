@@ -1,18 +1,18 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-const canvasWidth = 360;
+const canvasWidth = 500;
 const canvasHeight = 316;
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
 
 const colors = [
-    '#FCD116',
-    '#FCD116',
+    '#ffcd00',
+    '#ffcd00',
     '#003893',
     '#D12229',
 ];
 
-const canvasHeightDivision = canvasHeight / 6;
+const canvasHeightDivision = canvasHeight / 4;
 
 const drawRect = (color, idx) => {
     ctx.fillStyle = color;
