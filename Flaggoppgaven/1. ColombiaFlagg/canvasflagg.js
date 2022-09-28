@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-const canvasWidth = 360;
-const canvasHeight = 316;
+const canvasWidth = 350;
+const canvasHeight = 200;
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
 
