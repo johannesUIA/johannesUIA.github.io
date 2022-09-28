@@ -1,13 +1,13 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-const canvasWidth = 250;
-const canvasHeight = 158;
+const canvasWidth = 360;
+const canvasHeight = 316;
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
 
 const colors = [
-    '#ffcd00',
-    '#ffcd00',
+    '#FCD116',
+    '#FCD116',
     '#003893',
     '#D12229',
 ];
@@ -20,7 +20,7 @@ const drawRect = (color, idx) => {
         0,
         canvasHeightDivision * idx,
         canvasWidth,
-        canvasHeightDivision,
+        canvasHeightDivision
     );
 };
 
