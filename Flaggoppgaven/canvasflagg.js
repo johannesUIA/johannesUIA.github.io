@@ -20,8 +20,9 @@ const drawRect = (color, idx) => {
         0,
         canvasHeightDivision * idx,
         canvasWidth,
-        canvasHeightDivision
+        canvasHeightDivision,
     );
 };
 
 colors.forEach((color, idx) => drawRect(color, idx));
+
