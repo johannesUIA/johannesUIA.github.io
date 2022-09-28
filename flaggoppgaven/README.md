@@ -22,3 +22,12 @@ Valg av prosjekt
 - Flaggene vi bestemte oss for å lage var Finland, Ireland og Colombia.
 - Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger (kors, parallele sekvenser.)
 
+
+- Noen utfordringer gruppen møte i denne oppgaven var blandt annet å lære seg den nye programvaren.
+- Intellij var et utfordrende program å finne veien rundt i.
+- Spesielt også å forstå forskjellene mellom MACOS og Windows variantene.
+- (Dette gjorde det vanskelig med internet guides).
+-  Dette forsinket innsatsen med å forstå funksjoner som hvordan å redigere filer fra Git inne i Intellij.
+-  En annen utfordring var å lære seg de ulike begrepene/funksjonene i Github som Branches, Forks, Push og Pull.
+
+
