@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var mouseX=0, mouseY=0;
+canvas.addEventListener( "mousemove", function ( e ){
+var scrollX = ( window.scrollX !== null && typeof window.scrollX !== 'undefined') ? window.scrollX : window.pageXOffset;
+var scrollY = ( window.scrollY !== null && typeof window.scrollY !== 'undefined') ? window.scrollY : window.pageYOffset;
+mouseX = e.clientX - curElement.offsetLeft + scrollX;
+mouseY = e.clientY - curElement.offsetTop + scrollY;
+}, false );
+canvas.addEventListener( "click", function ( e ){
+if( mouseX < 200 ){
+window.location = "colombia.js";
+}
+}, false );
+</script>
+</body>
+</html>
