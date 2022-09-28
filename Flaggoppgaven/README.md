@@ -1,6 +1,4 @@
 GRUPPE-flagginnlevering
-Gruppemedlemer	Link til IND-REPOSITORY
-
 Valg av prosjekt
 
 - Gruppen har gjennomført en innlevering som gikk ut på å lage tre flagg med tre ulike metoder.
