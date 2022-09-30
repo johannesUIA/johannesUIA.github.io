@@ -30,5 +30,5 @@ Wikipedia (2022) Colombia. Hentet 30.sep fra https://no.wikipedia.org/wiki/Colom
 
 Wikipedia (2022) Ireland. Hentet 30.sep fra https://no.wikipedia.org/wiki/Irlands_flagg
 
-Wikipedia (2022) Litauen. Hentet 30.sep fra https://www.google.com/search?gs_ssp=eJzj4tDP1TcwSa9KMWD04szJLMkoTczLTAQARGkGyg&q=lithuania&rlz=1C1ONGR_noNO957NO957&oq=lits&aqs=chrome.4.69i57j46i175i199i512j46i512j0i512j46i10i433j0i10i131i433j0i512j46i175i199i512j0i512.3224j0j4&sourceid=chrome&ie=UTF-8
+Wikipedia (2022) Litauen. Hentet 30.sep fra https://en.wikipedia.org/wiki/Lithuania
 
