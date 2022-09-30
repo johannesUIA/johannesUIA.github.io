@@ -10,11 +10,11 @@ Valg av prosjekt
 | Gruppemedlemmer     | Arbeidsoppgaver                           | 
 |---------------------|-------------------------------------------|
 | Andreas Iversen     | Irland flagg i HTML med native stylesheet |
-| Bunyamin Genc       | Lithauen flagg i HTML med <p>             |
+| Bunyamin Genc       | Lithauen flagg i HTML med p               |
 | Kjetil Nymoen       | Irland flagg i HTML med native stylesheet |
 | Johannes Aslaksen   | Colombia flagg med ekstern JavaScript     |
 | Tony Le             | Colombia flagg med ekstern JavaScript     |
-| Viknan Chandrakumar | Lithauen flagg i HTML med <p>             |
+| Viknan Chandrakumar | Lithauen flagg i HTML med p               |
 
 - Formålet med oppgaven var å kunne lage en funksjonerende HTML side med tre forskjellige flagg.
 - Forutsatte mål er å prøve ut, og eksperimentere for læring av ulike metoder for figur laging i HTML.
