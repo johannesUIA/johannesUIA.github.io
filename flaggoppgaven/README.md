@@ -16,29 +16,12 @@
 | Tony Le             | Colombia flagg med ekstern JavaScript |
 | Viknan Chandrakumar | Lithauen flagg i HTML med p           |
 
-<h1>Oppgaven</h1>
-
-1.) Gjennomført
-
-2.) Vi brukte boards i Github project for å lange en oversikt over de ulike oppgavene som må gjennomføres.
-
-3.)
-
-4.) 
-
-
-
-
-<h1>Planlegging</h1>
--Formålet med oppgaven var å kunne lage en funksjonerende HTML side med tre forskjellige flagg.
-- <br>
--Forutsatte mål er å prøve ut, og eksperimentere for læring av ulike metoder for figur laging i HTML.
-- <br>
--Metodene vi brukte var med JavaScript, HTML med CSS og Stylesheet native i HTML.
-- <br>
--Flaggene vi bestemte oss for å lage var Litauen, Ireland og Colombia.
-- <br>
--Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger ( parallele sekvenser.)
+<h1>Planlegging og gjennomføring</h1>
+- Formålet med oppgaven var å kunne lage en funksjonerende HTML side med tre forskjellige flagg.
+- Forutsatte mål er å prøve ut, og eksperimentere for læring av ulike metoder for figur laging i HTML.
+- Metodene vi brukte var med JavaScript, HTML med CSS og Stylesheet native i HTML.
+- Flaggene vi bestemte oss for å lage var Litauen, Ireland og Colombia.
+- Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger (kors, parallele sekvenser.)
 
 <h1>Kilder</h1>
 
