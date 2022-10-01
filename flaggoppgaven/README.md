@@ -30,6 +30,12 @@
 - Vi kommuniserte godt innad gruppen i gruppemøtene og hjalp hverandre til vi fikk frem resulatet som vi har nå.
 - Under vår  siste mentormøte, så jobbet alle sammen godt med flaggoppgaven og la inn siste innsats for å fullføre prosjektet.
 
+<h1>Refleksjon</h1>
+- Flaggoppgaven var relativ enkel med tanke på at vi klarte å fordele flaggene innad gruppen i riktig god tid.
+- Vi hadde litt utfordringer i startfasen ettersom vi prøvde å lage litt vanskeligere flagg.
+- Etter en del møter over på Discord og på skolen, så klarte vi å komme frem til de flaggene vi har nå.
+- Oppgaven ble godt gjennomført til slutt selvom dette var relativt nytt for gruppe 7A. 
+
 
 <h1>Kilder</h1>
 
