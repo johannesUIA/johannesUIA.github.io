@@ -23,6 +23,14 @@
 - Flaggene vi bestemte oss for å lage var Litauen, Ireland og Colombia.
 - Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger (kors, parallelle sekvenser.)
 
+<h1>Beskrivelse av prosessen</h1>
+- Vi startet vår prosess med å fordele 3 forskjellige flagg innad vår gruppe. 
+- I startfasen så var det litt utfordrende ettersom det var nytt for oss å lage 3 flagg på 3 forskjellige måter.
+- Gjennom individuell læring, så vokste vi på kunnskap som gjorde det mulig å designe disse flaggene.
+- Vi kommuniserte godt innad gruppen i gruppemøtene og hjalp hverandre til vi fikk frem resulatet som vi har nå.
+- Under vår  siste mentormøte, så jobbet alle sammen godt med flaggoppgaven og la inn siste innsats for å fullføre prosjektet.
+
+
 <h1>Kilder</h1>
 
 
