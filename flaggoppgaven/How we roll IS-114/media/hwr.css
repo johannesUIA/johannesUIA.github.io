@@ -1,0 +1,45 @@
+/* -- Design for hele body -- */
+body {
+    margin: 0;
+    background-color: #333;
+}
+/* -- Navbar design -- */
+.navbar a {
+    text-decoration: none;
+}
+.navbar h2 {
+    text-align: center;
+    color: #d2002d;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+}
+.navbar {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+ul {
+}
+ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover {
+    color: #d2002d;
+    transition: 0.25s;
+}
+/* -- UIA Logo -- */
+.UIA-Logo {
+    text-align: center;
+    float: bottom;
+    padding-top: 100px;
+}

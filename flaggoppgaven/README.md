@@ -39,8 +39,8 @@
 - Intellij var et utfordrende program å finne veien rundt i.
 - Spesielt også å forstå forskjellene mellom MACOS og Windows variantene.
 - (Dette gjorde det vanskelig med internet guides).
--  Dette forsinket innsatsen med å forstå funksjoner som hvordan å redigere filer fra Git inne i Intellij.
--  En annen utfordring var å lære seg de ulike begrepene/funksjonene i Github som Branches, Forks, Push og Pull.
+- Dette forsinket innsatsen med å forstå funksjoner som hvordan å redigere filer fra Git inne i Intellij.
+- En annen utfordring var å lære seg de ulike begrepene/funksjonene i Github som Branches, Forks, Push og Pull.
 
 <h1>Kilder</h1>
 
