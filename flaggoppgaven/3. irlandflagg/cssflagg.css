@@ -1,0 +1,43 @@
+.flagg {
+    width: 60%;
+    margin-top: 30px;
+}
+h1{
+    text-align: right;
+    margin-right: 70px;
+}
+p{
+    margin: 0;
+    display: inline;
+    float: right;
+}
+
+.leftFlag{
+    height: 200px;
+    width: 100px;
+    background-color: #169B62;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+.midFlag{
+    height: 200px;
+    width: 100px;
+    background-color: #FFFFFF;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.rightFlag{
+    height: 200px;
+    width: 100px;
+    background-color: #FF883E;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+
+.mainpage{
+
+    margin-top: 250px;
+    text-align: center;
+}
