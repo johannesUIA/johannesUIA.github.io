@@ -21,7 +21,7 @@
 - Forutsatte mål er å prøve ut, og eksperimentere for læring av ulike metoder for figur laging i HTML.
 - Metodene vi brukte var med JavaScript, HTML med CSS og Stylesheet native i HTML.
 - Flaggene vi bestemte oss for å lage var Litauen, Ireland og Colombia.
-- Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger (kors, parallelle sekvenser.)
+- Disse tre flaggene var forskjellige i fordeling farger og geometriske inndelinger (kors, parallelle  sekvenser.)
 
 <h1>Beskrivelse av prosessen</h1>
 - Vi startet vår prosess med å fordele 3 forskjellige flagg innad vår gruppe. 
