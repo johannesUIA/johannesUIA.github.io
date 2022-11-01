@@ -7,7 +7,7 @@
 | Johannes Aslaksen   | https://github.com/johannesUIA/IND-REPOSITORY.git  |
 | Tony Le             | https://github.com/TonyLe02/IND-REPOSITORY.git     |
 | Viknan Chandrakumar | https://github.com/Viknan/IND-REPOSITORY.git       |
-
+| Thea Nilsen         | https://github.com/Theani33/IS114                  |
 
 - Møtelogg for GitHub 08.09.2022 <br>
 - Gruppeoppmøte: Andreas, Bunyamin, Kjetil, Johannes, Tony og Viknan.
