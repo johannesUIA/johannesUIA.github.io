@@ -9,7 +9,7 @@ body {
 }
 .navbar h2 {
     text-align: center;
-    color: #d2002d;
+    color: #0074d2;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     padding-top: 10%;
@@ -42,4 +42,29 @@ ul li a:hover {
     text-align: center;
     float: bottom;
     padding-top: 100px;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+Section {
+
+    text-align: center;
+
+}
+label{
+    color: white;
 }
