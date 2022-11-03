@@ -1,27 +1,33 @@
-/* -- Design for hele body -- */
+/* -- Style for body -- */
 body {
     margin: 0;
-    background-color: #333;
+    background-color:#2b2b2b;
 }
-/* -- Navbar design -- */
-.navbar a {
-    text-decoration: none;
+h1{
+    color: #0074d2
+
+
+}
+h2{
+    color: #0074d2;
+}
+/* -- Navigation bar design -- */
+.navbar h1 {
+    text-align: center;
 }
 .navbar h2 {
-    text-align: center;
     color: #0074d2;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     padding-top: 10%;
 }
 .navbar {
-    text-align: center;
-    margin: 0;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
 }
-ul {
+.fillIn{
+    text-align: center;
 }
 ul li {
     display: inline-block;
@@ -34,14 +40,8 @@ ul li a {
     color: #fff;
 }
 ul li a:hover {
-    color: #d2002d;
+    color: #4CAF50;
     transition: 0.25s;
-}
-/* -- UIA Logo -- */
-.UIA-Logo {
-    text-align: center;
-    float: bottom;
-    padding-top: 100px;
 }
 form.form-example {
     display: table;
@@ -60,11 +60,11 @@ label {
     padding-right: 10px;
 }
 
-Section {
-
-    text-align: center;
-
+section {
+    text-align:center;
 }
 label{
     color: white;
 }
+
+
