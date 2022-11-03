@@ -1,6 +1,8 @@
+<!-- docTypeHtml -->
 <!DOCTYPE html>
 <html lang="nb">
 
+<!-- headOfTheSite -->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +10,7 @@
   <link rel="stylesheet" href="media/HWR.css">
 </head>
 
+<!-- bodyOfTheSite -->
 <body>
 
 <!-- navigationBar -->
@@ -20,9 +23,8 @@
   </ul>
 </section>
 
-<section class="fillIn">
+<!-- actionSubmit -->
 <form action="" method="get" class="form-example">
-
   <div class="form-example">
     <label for="name">Name: </label>
     <input type="text" name="name" id="name" placeholder="Please enter your name" required>
@@ -36,9 +38,8 @@
   <div id="button" class="form-example">
     <input type="button" value="Subscribe!">
   </div>
-
 </form>
-</section>
+
 <p>
   <label class="choose">
     <select id="cars">
@@ -50,7 +51,30 @@
     </select>
   </label>
 <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <p>
+  <label for="myRange">Lambo</label>
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <label for="myRange">Porsche</label>
+  </p>
+  <p>
+    <!-- ford - fysisk or digitalt -->
+    <label for="ford">Jobbe fysisk</label>
+    <input type="range" id="ford" name="ford" value="50" class="slider">
+    <label for="ford">Jobbe digitalt</label>
+  </p>
+</div>
+
+  <p>
+    <label>Alder:
+      <input type="number" name="alder" id="alder" max="100" min="10">
+    </label>
+  </p>
+
+  <button type="submit" id="btnLagre">Lagre</button>
+  </form>
+  </section>
+
+
 </div>
 
 </label>

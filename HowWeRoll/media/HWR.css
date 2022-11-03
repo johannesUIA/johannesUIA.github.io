@@ -5,8 +5,6 @@ body {
 }
 h1{
     color: #0074d2
-
-
 }
 h2{
     color: #0074d2;
@@ -26,9 +24,7 @@ h2{
     font-family: 'Roboto', sans-serif;
     width: 100%;
 }
-.fillIn{
-    text-align: center;
-}
+
 ul li {
     display: inline-block;
     margin-bottom: 5px;
@@ -45,26 +41,18 @@ ul li a:hover {
 }
 form.form-example {
     display: table;
+    margin: auto;
 }
 
 div.form-example {
     display: table-row;
 }
-
+/* styles for input */
 label, input {
+    color: white;
     display: table-cell;
     margin-bottom: 10px;
 }
 
-label {
-    padding-right: 10px;
-}
-
-section {
-    text-align:center;
-}
-label{
-    color: white;
-}
 
 
