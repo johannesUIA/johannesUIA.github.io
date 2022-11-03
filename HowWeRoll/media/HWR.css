@@ -3,26 +3,30 @@ body {
     margin: 0;
     background-color:#2b2b2b;
 }
+
 h1{
     color: #0074d2
 }
+
 h2{
     color: #0074d2;
 }
 /* -- Navigation bar design -- */
-.navbar h1 {
+.navbar {
+
     text-align: center;
-}
-.navbar h2 {
     color: #0074d2;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     padding-top: 10%;
-}
-.navbar {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+}
+/* -- Navigation bar design -- */
+section.navBar {
+    text-align: center;
+
 }
 
 ul li {
@@ -49,10 +53,9 @@ div.form-example {
 }
 /* styles for input */
 label, input {
-    color: white;
+    color: black;
     display: table-cell;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
-
 
 
