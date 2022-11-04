@@ -82,7 +82,7 @@
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #FFFFFF;
+    border: 0px solid #FFFFFF;
     background: transparent;
     color: #D0002D;
     cursor: pointer;
@@ -106,5 +106,6 @@ button:hover span{
     width: 100%;
 }
 
-
-
+button:hover {
+    border: none;
+}
