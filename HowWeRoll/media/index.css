@@ -72,8 +72,9 @@
 .content p {
     margin: 20px auto;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: bold;
     line-height: 25px;
+
 }
 
  button{
@@ -84,7 +85,7 @@
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 0px solid #FFFFFF;
+    border: 0 solid #FFFFFF;
     background: transparent;
     color: #D0002D;
     cursor: pointer;

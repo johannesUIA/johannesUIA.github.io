@@ -58,4 +58,11 @@ label, input {
     margin-bottom: 10px
 }
 
+.slidecontainer
+{
+    display: inline-block;
+
+}
+
+
 

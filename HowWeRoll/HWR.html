@@ -17,7 +17,7 @@
     <li><a href=".html" target="_blank">Demo</a></li>
   </ul>
 </section>
-
+<--!
 <center>
 <h1>Dette er min nettside for å samle inn data</h1>
 <form action="" method="get" class="form-example">
@@ -46,15 +46,16 @@
 <div class="slidecontainer">
   <p>
     <label for="iore">Lambo</label>
-    <input type="range" id="iore" name="iore" value="50" class="slider">
+    <input type="range" id="iore" name="iore" value="50" min="0"
+           max="100" step="10" class="slider">
     <label for="iore">Porsche</label>
   </div>
-    <!-- slides or digitalt -->
+    <!-- slides for å måle -->
     <div>
-  <label for="ford">Jobbe fysisk</label>
-    <input type="range" id="ford" name="ford" value="50" min="0"
-           max="100" value="90" step="10" class="slider">
-    <label for="ford">Jobbe digitalt</label>
+  <label for="jp">Jobbe fysisk</label>
+    <input type="range" id="jp" name="jp" min="0"
+           max="100" step="10" class="slider">
+    <label for="jp">Jobbe digitalt</label>
 
 </div>
 
@@ -101,8 +102,8 @@
     timetrxidCOPY.hidden=false;
   }
 
-  <!-- Kode fra Janis -->
-  // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+  <!-- Kode fra Janis sin forelesning -->
+  // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-04)
   // Example POST method implementation using fetch:
   async function postData(url = '', data = {}) {
     // Default options are marked with *
@@ -141,49 +142,5 @@
 </html>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport"
-        content="width=device-width,initial-scale=1">
-  <style>
-    .slidecontainer{
-      width: 100%;
-    }
-    .slider {
-      -webkit-appearance: slider;none;
-      width: 100%;
-      height: 25px;
-      background: #d3d3d3;
-      outline: none;
-      opacity: 0.7;
-      -webkit-transition: .2s;
-      transition: opacity .2s;
-    }
-    .slider:hover {
-      opacity: 1;
-    }
-    .slider::-webkit-media-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 25px;
-      height: 25px;
-      background: #04AA6D;
-      cursor: pointer;
-    }
-
-    </style>
-    </div>
-    </body>
-    </html>
-
-    <p> I like:</p>
-
-    <div>
-    <label for="interests">Basketball</label>
-    <input type="range"
-    min="0" max="11">
-    <label for="interests">Fotball</label>
-    </div>
 
 
