@@ -29,7 +29,7 @@
 .navbar ul li::after{
     content: '';
     height: 3px;
-    width: 0%;
+    width: 0;
     background: #D0002D;
     position: absolute;
     left: 0;
@@ -52,4 +52,14 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
+}
+.content h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+.content p {
+    color: #FFFFFF;
+    text-align: center;
 }
