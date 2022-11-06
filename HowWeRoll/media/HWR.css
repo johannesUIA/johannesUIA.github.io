@@ -1,63 +1,95 @@
-/* -- Style for body -- */
-body {
+*{
     margin: 0;
-    background-color:#2b2b2b;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-h1{
-    color: #0074d2
-}
+.banner {
+    background-image: url(images/night.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 
-h2{
-    color: #0074d2;
-}
-/* -- Navigation bar design -- */
-.navbar {
-
-    text-align: center;
-    color: #0074d2;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 10%;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-}
-/* -- Navigation bar design -- */
-section.navBar {
-    text-align: center;
 
 }
 
-ul li {
-    display: inline-block;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-right: 20px;
-}
-ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-ul li a:hover {
-    color: #4CAF50;
-    transition: 0.25s;
-}
-form.form-example {
-    display: table;
+.navbar{
+    width: 85%;
     margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-div.form-example {
-    display: table-row;
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
 }
-/* styles for input */
-label, input {
-    color: #0074d2;
-    margin-bottom: 15px
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0075fe;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
 }
 
+.navbar ul li:hover::after{
+    width: 100%;
 
+}
 
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.content button {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.slider {
+    width: 25%;
+
+}
+
+input {
+    font-size: 20px;
+    width: 15%;
+    margin-bottom: 15px;
+
+}
 
 
