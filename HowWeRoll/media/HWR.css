@@ -54,15 +54,10 @@ div.form-example {
 /* styles for input */
 label, input {
     color: #0074d2;
-    display: table-cell;
-    margin-bottom: 10px
+    margin-bottom: 15px
 }
 
-.slidecontainer
-{
-    display: inline-block;
 
-}
 
 
 
