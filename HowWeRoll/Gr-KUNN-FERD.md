@@ -21,7 +21,7 @@ av muligheter og utfordringer innad gruppen ved å ha samtaler og møte med ment
  Vi opprettet branches for vært individuelle medlem på gruppen slik at alt blir pushet til merge-branch før det fullførte prosjektet commites, pushes og publiseres i main-branch. 
  Oppgaven handler om visittkort som ble delt opp kanban-bordet på Github.
  Hvert av medlemmene i gruppen fikk i oppgave å “ta ansvar” for sine egne visittkort og skrive en kortsagt oppsummert tekst om seg selv. 
- Teksten ble senere implementert i det fullført resultatet av index.html som ligger på GitHub Pages
+ Teksten ble senere implementert i det fullført resultatet av index.html som ligger på GitHub Pages.
  (direktelenke:
  https://github.com/johannesUIA/johannesUIA.github.io/)
     \)
