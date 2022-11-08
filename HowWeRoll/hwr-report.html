@@ -276,7 +276,7 @@
             .then(data => {
                 console.log(data);
                 results.innerText = JSON.stringify(data, null, 2);
-                document.querySelector("#debug").innerText = "Fornavn: " + data.navn + "\nGruppe: " + data.gruppe + "\nAlder: " + data.alder;
+                document.querySelector("#debug").innerText = "Fornavn: " + data.navn + "\nemail: " + data.email + "\nAlder: " + data.alder;
 
                 context.fillStyle = "black";
                 context.fillText(data.navn, 410, 104,);
