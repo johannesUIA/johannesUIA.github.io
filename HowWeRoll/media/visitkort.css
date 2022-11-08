@@ -6,8 +6,8 @@
 
 .banner {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/krs.jpg);
+    height: 140vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/night.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -19,6 +19,174 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*---Design av Andreas visitkort---*/
+.andreas{
+    float: left;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+#andreasbilde{
+    margin-top: -210px;
+    margin-left: -10px;
+    border: solid;
+    border-radius: 25px;
+    position: fixed;
+}
+#andreastext{
+    width: 28%;
+    height: 200px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    border: solid;
+    margin-top: -210px;
+    position: fixed;
+}
+
+/*---Design av Benjamins visitkort---*/
+.benjamin{
+    margin-left: 1000px;
+    margin-top: -50px;
+    position: fixed;
+}
+#benjaminbilde{
+    margin-top: -210px;
+    margin-left: -250px;
+    border-radius: 25px;
+    border: solid;
+    position: fixed;
+}
+#benjamintext{
+    border: solid;
+    position: fixed;
+    width: 28%;
+    height: 200px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: -210px;
+}
+
+/*---Design av Theas visitkort---*/
+.thea{
+    float: left;
+    margin-left: 60px;
+    margin-top: -50px;
+    position: fixed;
+}
+#theabilde{
+    margin-top: 10px;
+    margin-left: -10px;
+    border: solid;
+    border-radius: 25px;
+    position: fixed;
+}
+#theatext{
+    width: 28%;
+    height: 200px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    border: solid;
+    margin-top: 10px;
+    position: fixed;
+}
+
+/*---Design av Tonys visitkort---*/
+.tony{
+    margin-left: 1000px;
+    margin-top: -50px;
+    position: fixed;
+}
+#tonybilde{
+    margin-top: 10px;
+    margin-left: -250px;
+    border-radius: 25px;
+    border: solid;
+    position: fixed;
+}
+#tonytext{
+    border: solid;
+    position: fixed;
+    width: 28%;
+    height: 200px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 10px;
+}
+
+/*---Design av Kjetils visitkort---*/
+.kjetil{
+    float: left;
+    margin-left: 60px;
+    margin-top: -50px;
+    position: fixed;
+}
+#kjetilbilde{
+    margin-top: 230px;
+    margin-left: -10px;
+    border: solid;
+    border-radius: 25px;
+    position: fixed;
+}
+#kjetiltext{
+    width: 28%;
+    height: 200px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    border: solid;
+    margin-top: 230px;
+    position: fixed;
+}
+
+/*---Design av Viknans visitkort---*/
+.viknan{
+    margin-left: 1000px;
+    margin-top: -50px;
+    position: fixed;
+}
+#viknanbilde{
+    margin-top: 230px;
+    margin-left: -250px;
+    border-radius: 25px;
+    border: solid;
+    position: fixed;
+}
+#viknantext{
+    border: solid;
+    position: fixed;
+    width: 28%;
+    height: 200px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 230px;
+}
+
+/*---Design av Johannes visitkort---*/
+.johannes{
+    float: left;
+    margin-left: 60px;
+    margin-top: -50px;
+    position: fixed;
+}
+#johannesbilde{
+    margin-top: 450px;
+    margin-left: -10px;
+    border: solid;
+    border-radius: 25px;
+    position: fixed;
+}
+#johannestext{
+    width: 28%;
+    height: 200px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 0px 25px 25px 0px;
+    border: solid;
+    margin-top: 450px;
+    position: fixed;
 }
 
 .navbar ul li a{
@@ -66,35 +234,49 @@
 .content h1 {
     font-size: 50px;
     margin-top: 80px;
+
 }
 
 .content p {
     margin: 20px auto;
-    font-weight: 100;
-    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+
 }
-button {
-    width: 200px;
+
+button{
+    width: 240px;
+    font-size: 20px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #FFFFFF;
+    border: 0 solid #FFFFFF;
     background: transparent;
-    color: #FFFFFF;
+    color: #D0002D;
     cursor: pointer;
     position: relative;
     overflow: hidden;
 }
+
 span{
     background: #FFFFFF;
     height: 100%;
-    width: 100%;
+    width: 0;
     border-radius: 25px;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
+    transition: 0.5s;
+}
 
+button:hover span{
+    width: 100%;
+}
+
+button:hover {
+    border: none;
 }
