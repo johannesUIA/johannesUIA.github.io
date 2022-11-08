@@ -19,7 +19,7 @@
 
         <!-- List of different options -->
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Hjem</a></li>
             <li><a href="visitkort.html">Visitkort</a></li>
             <li><a href="HWR.html">HWR</a></li>
             <li><a href="hwr-report.html">Rapport</a></li>
@@ -30,72 +30,80 @@
     <div class="content">
 
         <h1>Fyll inn informasjon</h1>
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                    <label for="navn">Navn: </label>
-                    <input type="text" name="navn" id="navn" placeholder="Legg til navn" required>
-                </div>
-                <div class="form-example">
-                    <label for="epost">Epost: </label>
-                    <input type="epost" name="email" id="epost" placeholder="Legg til epost" required>
-                </div>
-
-                <div>
-                    <label>Alder:
-                        <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Legg til alder">
-                    </label>
-                </div>
-
-    <button type="submit" id="btnLagre">Lagre</button>
-
-                <div class="form-example">
-                    <input type="submit" value="Get ID">
-                </div>
-
-            </form>
-
-            <!-- Lambo or Porsche -->
-            <div class="slidelorp">
-                    <label for="lorp">Lambo</label>
-                    <input type="range" id="lorp" name="iore" value="50" class="slider">
-                    <label for="lorp">Porsche</label>
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+                <label for="navn">Name: </label>
+                <input type="text" name="name" id="navn" placeholder="Legg til navn" required>
+            </div>
+            <div class="form-example">
+                <label for="epost">Email: </label>
+                <input type="email" name="epost" id="epost" placeholder="Legg til epost" required>
             </div>
 
-            <!-- Fysisk or digitalt -->
-            <div class="slideford">
-                <label for="ford">Jobbe fysisk</label>
-                <input type="range" id="ford" name="ford" value="50" min="0"
-                       max="100" step="10" class="slider">
-                <label for="ford">Jobbe digitalt</label>
+            <div>
+                <label>Alder:
+                    <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Legg til alder">
+                </label>
             </div>
 
-             <!-- Lede or følge -->
-             <div class="slidelorf">
-                <label for="lorf">Liker å lede</label>
-                <input type="range" id="lorf" name="ford" value="50" min="0"
+            <button type="submit" id="btnLagre">Lagre</button>
+
+            <div class="form-example">
+                <input type="submit" value="Get ID">
+            </div>
+
+        </form>
+
+        <div class="lorp">
+            <label for="lorp">Lambo</label>
+            <input type="range" id="lorp" name="iore" value="50" class="slider">
+            <label for="lorp">Porsche</label>
+        </div>
+
+        <!-- fysisk or digitalt -->
+        <div>
+            <label for="ford">Jobbe fysisk</label>
+            <input type="range" id="ford" name="ford" value="50" min="0"
                    max="100" step="10" class="slider">
-                 <label for="lorf">Liker å følge</label>
-             </div>
+            <label for="ford">Jobbe digitalt</label>
+        </div>
 
-            <!-- Forberedt or spontant -->
-            <div class="slidefors">
-                <label for="fors">Liker å være forberedt</label>
-                <input type="range" id="fors" name="ford" value="50" min="0"
+        <!-- Planlegge og Gjennomføre -->
+        <div class="slidefors">
+            <label for="eors">Jobber effektivt</label>
+            <input type="range" id="eors" name="ford" value="50" min="0"
                    max="100" step="10" class="slider">
-                <label for="fors">Liker å være spontant</label>
-            </div>
+            <label for="eors">Jobbe strukturert</label>
+        </div>
 
-            <!-- Visuelle av data ID -->
-            <div class="id">
-                Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
-            </div>
+        <!-- Lede or følge -->
+        <div class="slidelorf">
+            <label for="lorf">Liker å lede</label>
+            <input type="range" id="lorf" name="ford" value="50" min="0"
+                   max="100" step="10" class="slider">
+            <label for="lorf">Liker å følge</label>
+        </div>
 
-            <div class="results">
-                <h2>Form Data</h2>
-                <pre> </pre>
-            </div>
+        <!-- Forberedt or spontant -->
+        <div class="slidefors">
+            <label for="fors">Liker å være forberedt</label>
+            <input type="range" id="fors" name="ford" value="50" min="0"
+                   max="100" step="10" class="slider">
+            <label for="fors">Liker å være spontant</label>
+        </div>
 
-        <!-- JavaScript -->
+
+
+
+
+        <!-- Visuelle av data ID -->
+        <div class="id">
+            Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
+        </div>
+
+
+
+        <!-- Script -->
         <script>
             <!-- Lagring-av-data -->
             var timetrxidCOPY=document.getElementById("timetrxidCOPY");
