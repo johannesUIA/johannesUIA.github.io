@@ -57,16 +57,13 @@
 
     <!-- Tegning av info i canvas  -->
     context.font = '14px serif';
-    context.fillText('Lambo', 10, 24);
-    context.fillText('Porsche', 210, 24);
+    context.fillText('Introvert', 10, 24);
+    context.fillText('Ekstrovert', 210, 24);
 
     context.fillText('Johannes', 410, 24,);
-    context.fillText('Andreas', 410, 44,);
-    context.fillText('Tony', 410, 64,);
-    context.fillText('Bunyamin', 410, 84,);
-    context.fillText('Kjetil', 410, 84,);
-    context.fillText('Thea', 410, 84,);
-
+    context.fillText('Michael', 410, 44,);
+    context.fillText('Hans Christian', 410, 64,);
+    context.fillText('Tony', 410, 84,);
 
     context.fillText('Jobbe fysisk', 10, 74);
     context.fillText('Jobbe digitalt', 210, 74);
@@ -134,7 +131,7 @@
     <!-- Innsamling av eldre data -->
 
     <!-- Johannes data -->
-    fetch("", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20211010181809-417b2138c73b82ab517b21bfe85f9a25.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -238,7 +235,7 @@
             context.closePath();
         });
 
-    <!-- Daniels data -->
+    <!-- Tony data -->
     fetch("https://bacit.info/hwr/20211010181642-0f43a4adac16f0b870e05f186d1dba40.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
