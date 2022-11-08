@@ -90,7 +90,7 @@ input {
 
 }
 
-button {
+.button {
     width: 15%;
     margin-bottom: 15px;
 }
@@ -99,15 +99,13 @@ button {
     font-size: 20px;
 }
 
-label {
+.label {
     font-size: 20px;
 }
 
 
-element.style {
-}
-@media only screen and (max-width: 1000px)
-    .navbar {
+
+.navbar {
         margin: 0;
         font-size: 25px;
         background-color: #333333;
