@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
 
 .banner {
     background-image: url(images/night.jpg);
@@ -13,33 +8,24 @@
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.navbar {
+    margin: 0;
+    font-size: 25px;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
 .navbar ul li a{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
-}
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #0075fe;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navbar ul li:hover::after{
-    width: 100%;
-
 }
 
 .logo{
@@ -50,8 +36,8 @@
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-    position: relative;
+    margin: 20px;
+    position: center;
 }
 .content{
     width: 100%;
@@ -78,33 +64,12 @@
     margin-top: 15px;
 }
 
-.slider {
-    width: 25%;
-
-}
-
 input {
     font-size: 20px;
     width: 15%;
     margin-bottom: 15px;
 
 }
-
-.button {
-    width: 15%;
-    margin-bottom: 15px;
-}
-
-.id {
-    font-size: 20px;
-}
-
-.label {
-    font-size: 20px;
-}
-
-
-
 .navbar {
         margin: 0;
         font-size: 25px;
@@ -116,18 +81,4 @@ input {
         padding-bottom: 10px;
     }
 
-    .navbar {
-        margin: 0;
-        font-size: 25px;
-        background-color: #333;
-        font-family: 'Roboto', sans-serif;
-        width: 100%;
-    }
-    user agent stylesheet
-    section {
-        display: block;
-    }
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-    }
+
