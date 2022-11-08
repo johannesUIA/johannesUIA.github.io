@@ -32,17 +32,17 @@
         <h1>Fyll inn informasjon</h1>
             <form action="" method="get" class="form-example">
                 <div class="form-example">
-                    <label for="navn">Navn: </label>
-                    <input type="text" name="navn" id="navn" placeholder="Legg til navn" required>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your name" required>
                 </div>
                 <div class="form-example">
-                    <label for="epost">Epost: </label>
-                    <input type="epost" name="email" id="epost" placeholder="Legg til epost" required>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Please enter your email" required>
                 </div>
 
                 <div>
                     <label>Alder:
-                        <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Legg til alder">
+                        <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Please enter your age">
                     </label>
                 </div>
 
@@ -52,48 +52,30 @@
                     <input type="submit" value="Get ID">
                 </div>
 
-            </form>
 
-            <!-- Lambo or Porsche -->
-            <div class="slidelorp">
-                    <label for="lorp">Lambo</label>
-                    <input type="range" id="lorp" name="iore" value="50" class="slider">
-                    <label for="lorp">Porsche</label>
+            </form>
+            <p>
+            <div class="slidecontainer">
+                <p>
+                    <label for="iore">Lambo</label>
+                    <input type="range" id="iore" name="iore" value="50" class="slider">
+                    <label for="iore">Porsche</label>
             </div>
 
-            <!-- Fysisk or digitalt -->
-            <div class="slideford">
+            <!-- slides or digitalt -->
+            <div>
                 <label for="ford">Jobbe fysisk</label>
                 <input type="range" id="ford" name="ford" value="50" min="0"
                        max="100" step="10" class="slider">
                 <label for="ford">Jobbe digitalt</label>
             </div>
-
-        <!---Slides for personlighetstrekk "Fleksibilitet"--->
-        <div class="slideFleksibilitet">
-
-            <label for="fleksibilitet">Trenger en fast timeplan</label>
-            <input type="range" id="fleksibilitet" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="fleksibilitet">Kan jobbe når som helst</label>
-        </div>
-
-             <!-- Lede or følge -->
-             <div class="slidelorf">
-                <label for="lorf">Liker å lede</label>
-                <input type="range" id="lorf" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-                 <label for="lorf">Liker å følge</label>
-             </div>
-
-            <!-- Forberedt or spontant -->
-            <div class="slidefors">
-                <label for="fors">Liker å være forberedt</label>
-                <input type="range" id="fors" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-                <label for="fors">Liker å være spontant</label>
-            </div>
-
+             <!-- Planlegge og Gjennomføre -->
+              <div class="slidefors">
+              <label for="fors">Jobber effektivt</label>
+              <input type="range" id="fors" name="ford" value="50" min="0"
+              max="100" step="10" class="slider">
+              <label for="fors">Jobbe strukturert</label>
+              </div>
             <!-- Visuelle av data ID -->
             <div class="id">
                 Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
@@ -104,7 +86,7 @@
                 <pre></pre>
             </div>
 
-        <!-- JavaScript -->
+        <!-- Script -->
         <script>
             <!-- Lagring-av-data -->
             var timetrxidCOPY=document.getElementById("timetrxidCOPY");
