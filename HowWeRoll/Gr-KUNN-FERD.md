@@ -6,6 +6,9 @@ GR-KUNN-FERD) og beskrive hva er relevant for denne oppgaven (f. eks. bruk av ve
 som Git og Github i prosjektplanleggingen og gjennomføringen, bruke av
 programmeringsverktøy som HTML5, Canvas, CSS, JavaScript osv.).
 
+
+
+
 04/11/2022
 Gruppen vår har blitt enige om at gjennomføringen av dette prosjektet bør gjennomføres ved å fordele
 oppgavene jevnt utover gruppen. 7A har tatt i bruk Github som et samarbeids-verktøy som har koblet til dette prosjektet
@@ -15,6 +18,7 @@ gjennom prosjektplanlegging og videre arbeid. Canvas har stadig blitt benyttet f
 av muligheter og utfordringer innad gruppen ved å ha samtaler og møte med mentor. 
 
 
+08/11/2022
 
 
 
