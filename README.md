@@ -21,9 +21,9 @@
 - Når filen var oppdatert med ny informasjon ble det commited og pushet.
 - Til slutt skreiv gruppen en logg for å loggføre prosessen under denne oppgaven.
 
-Noen utfordringer gruppen møte i denne oppgaven var blandt annet å lære seg den nye programvaren. 
+Noen utfordringer gruppen møte i denne oppgaven var blant annet å lære seg den nye programvaren. 
 Intellij var et utfordrende program å finne veien rundt i.
-Spesielt også å forstå forskjellene mellom MACOS og Windows variantene. 
+Spesielt å forstå forskjellene mellom MACOS og Windows variantene. 
 - (Dette gjorde det vanskelig med internet guides).
 Dette forsinket innsatsen med å forstå funksjoner som hvordan å redigere filer fra Git inne i Intellij.
 En annen utfordring var å lære seg de ulike begrepene/funksjonene i Github som Branches, Forks, Push og Pull.
