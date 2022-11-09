@@ -128,7 +128,7 @@
     <!-- Innsamling av eldre data -->
 
     <!-- Johannes data -->
-    fetch("https://bacit.info/hwr/.json", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20221108174811-45ee8478cee37675137cfc1d90ad7f3b.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -145,7 +145,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.iore, 10);
+            var X = 100 + parseInt(data.lorp, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
