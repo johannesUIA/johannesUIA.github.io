@@ -19,98 +19,82 @@
 
         <!-- List of different options -->
         <ul>
-            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="visitkort.html">Visitkort</a></li>
             <li><a href="HWR.html">HWR</a></li>
             <li><a href="hwr-report.html">Rapport</a></li>
+            <li><a href="https://bacit.info/hwr/">Domene</a></li>
         </ul>
     </div>
-
-
-
 
     <!-- Main content -->
     <div class="content">
 
         <h1>Fyll inn informasjon</h1>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Please enter your email" required>
+                </div>
 
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-                <label for="navn">Navn: </label>
-                <input type="text" name="name" id="navn" placeholder="Legg til navn" required>
+                <div>
+                    <label>Alder:
+                        <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Please enter your age">
+                    </label>
+                </div>
+
+    <button type="submit" id="btnLagre">Lagre</button>
+
+                <div class="form-example">
+                    <input type="submit" value="Get ID">
+                </div>
+
+            </form>
+
+            <!-- Lambo or Porsche -->
+            <div class="slidelorp">
+                    <label for="lorp">Lambo</label>
+                    <input type="range" id="lorp" name="lorp" value="50" class="slider">
+                    <label for="lorp">Porsche</label>
             </div>
-            <div class="form-example">
-                <label for="epost">Epost: </label>
-                <input type="text" name="epost" id="epost" placeholder="Legg til epost" required>
+
+            <!-- slides or digitalt -->
+            <div class="slideford">
+                <label for="ford">Jobbe fysisk</label>
+                <input type="range" id="ford" name="ford" value="50" min="0"
+                       max="100" step="10" class="slider">
+                <label for="ford">Jobbe digitalt</label>
             </div>
 
-            <div>
-                <label>Alder:
-                    <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Legg til alder">
-                </label>
+             <!-- Lede or følge -->
+             <div class="slidelorf">
+                <label for="lorf">Liker å lede</label>
+                <input type="range" id="lorf" name="ford" value="50" min="0"
+                   max="100" step="10" class="slider">
+                 <label for="lorf">Liker å følge</label>
+             </div>
+
+            <!-- Forberedt or spontant -->
+            <div class="slidefors">
+                <label for="fors">Liker å være forberedt</label>
+                <input type="range" id="fors" name="ford" value="50" min="0"
+                   max="100" step="10" class="slider">
+                <label for="fors">Liker å være spontant</label>
             </div>
 
-            <button type="submit" id="btnLagre">Lagre</button>
-
-            <div class="form-example">
-                <input type="submit" value="Get ID">
+            <!-- Visuelle av data ID -->
+            <div class="id">
+                Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
             </div>
 
-
-
-        <div class="lorp">
-            <label for="lorp">Lambo</label>
-            <input type="range" id="lorp" name="iore" value="50" class="slider">
-            <label for="lorp">Porsche</label>
-        </div>
-
-        <!-- fysisk or digitalt -->
-        <div>
-            <label for="ford">Jobbe fysisk</label>
-            <input type="range" id="ford" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="ford">Jobbe digitalt</label>
-        </div>
-
-        <!-- Planlegge og Gjennomføre -->
-        <div class="slidefors">
-            <label for="eors">Jobber effektivt</label>
-            <input type="range" id="eors" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="eors">Jobbe strukturert</label>
-        </div>
-
-        <!-- Lede or følge -->
-        <div class="slidelorf">
-            <label for="lorf">Liker å lede</label>
-            <input type="range" id="lorf" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="lorf">Liker å følge</label>
-        </div>
-
-        <!-- Forberedt or spontant -->
-        <div class="slidefors">
-            <label for="fors">Liker å være forberedt</label>
-            <input type="range" id="fors" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="fors">Liker å være spontant</label>
-        </div>
-
-        <!-- Utadvent og Innadvendt -->
-        <div class="slideuori">
-            <label for="åpenhet">Innadvendt</label>
-            <input type="range" id="åpenhet" name="åpenhet" value="50" min="0" max="100" step="10" class="slider">
-            <label for="åpenhet">Utadvendt</label>
-        </div>
-
-
-
-        <!-- Visuelle av data ID -->
-        <div class="id">
-            Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
-        </div>
-
-
+            <div class="results">
+                <h2>Form Data</h2>
+                <pre></pre>
+            </div>
 
         <!-- Script -->
         <script>
@@ -125,7 +109,7 @@
             }
 
             <!-- Kode fra Janis -->
-            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-02)
             // Example POST method implementation using fetch:
             async function postData(url = '', data = {}) {
                 // Default options are marked with *
