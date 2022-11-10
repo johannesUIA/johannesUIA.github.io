@@ -61,6 +61,9 @@
     context.fillText('Tony', 410, 44,);
     context.fillText('Andreas', 410, 64,);
     context.fillText('Bunyamin', 410, 84,);
+    context.fillText('kjetil', 410, 104,);
+    context.fillText('Viknan', 410, 124,);
+
 
     context.fillText('Jobbe fysisk', 10, 74);
     context.fillText('Jobbe digitalt', 210, 74);
@@ -128,7 +131,7 @@
     <!-- Innsamling av eldre data -->
 
     <!-- Johannes data -->
-    fetch("https://bacit.info/hwr/20221108174811-45ee8478cee37675137cfc1d90ad7f3b.json", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20221110095916-bc5bd8cf9275474a36727472d32c67df.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -145,7 +148,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.lorp, 10);
+            var X = 100 + parseInt(data.inut, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
@@ -157,7 +160,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.ford, 10);
+            var X = 100 + parseInt(data.fydi, 10);
             var Y = 70;
             var R = 4;
             context.beginPath();
@@ -176,7 +179,7 @@
         .then(data => {
             console.log(data);
 
-            var X = 100 + parseInt(data.iore, 10);
+            var X = 100 + parseInt(data.inut, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
@@ -188,7 +191,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.ford, 10);
+            var X = 100 + parseInt(data.fydi, 10);
             var Y = 70;
             var R = 4;
             context.beginPath();
@@ -207,7 +210,7 @@
         .then(data => {
             console.log(data);
 
-            var X = 100 + parseInt(data.iore, 10);
+            var X = 100 + parseInt(data.inut, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
@@ -219,7 +222,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.ford, 10);
+            var X = 100 + parseInt(data.fydi, 10);
             var Y = 70;
             var R = 4;
             context.beginPath();
@@ -238,7 +241,7 @@
         .then(data => {
             console.log(data);
 
-            var X = 100 + parseInt(data.iore, 10);
+            var X = 100 + parseInt(data.inut, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
@@ -250,7 +253,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.ford, 10);
+            var X = 100 + parseInt(data.fydi, 10);
             var Y = 70;
             var R = 4;
             context.beginPath();
@@ -262,6 +265,71 @@
             context.stroke();
             context.closePath();
         });
+
+
+    <!-- Kjetil data innsamling -->
+    fetch("https://bacit.info/hwr/.json", {cache: 'no-cache'})
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+
+            var X = 100 + parseInt(data.inut, 10);
+            var Y = 20;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.fydi, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+        });
+
+    <!-- Viknan data -->
+    fetch("https://bacit.info/hwr/.json", {cache: 'no-cache'})
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+
+            var X = 100 + parseInt(data.inut, 10);
+            var Y = 20;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.fydi, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+        });
+
+
 
 
     <!-- Innsamling av ny data -->
@@ -289,7 +357,7 @@
                 context.stroke();
                 context.closePath();
 
-                var X = 100 + parseInt(data.iore, 10);
+                var X = 100 + parseInt(data.inut, 10);
                 var Y = 20;
                 var R = 4;
                 context.beginPath();
@@ -301,7 +369,7 @@
                 context.stroke();
                 context.closePath();
 
-                var X = 100 + parseInt(data.ford, 10);
+                var X = 100 + parseInt(data.fydi, 10);
                 var Y = 70;
                 var R = 4;
                 context.beginPath();
@@ -313,6 +381,7 @@
                 context.stroke();
                 context.closePath();
             });
+
     }
 </script>
 </body>
