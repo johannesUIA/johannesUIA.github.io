@@ -7,6 +7,9 @@
 </head>
 
 <body>
+
+<div class="banner" </div>
+
     <!-- Navigation bar -->
     <div class="navbar">
 
@@ -27,12 +30,10 @@
     <!-- Main content -->
     <div class="content">
         <h1>Rapport</h1>
-    </div>
 
     <!-- Visuelle av data -->
-    <section> class="data">
-        <p></p>
-        Lim inn id: <input type="text" value="" id="timetrxidPASTE" style="width: 400px">
+    <section class="data">
+        Lim inn ID: <input type="text" value="" id="timetrxidPASTE" style="width: 400px">
         <div class="results" id="results">
             <h2>Data:</h2>
             <pre class="data2"></pre>
@@ -42,6 +43,7 @@
         <div id="debug"></div>
         <canvas id="report" width="500"></canvas>
     </section>
+    </div>
 
 <!-- Script -->
 <script>
@@ -53,20 +55,31 @@
     const results = document.querySelector('.results pre');
 
     <!-- Tegning av info i canvas  -->
-    context.font = '14px serif';
+
+    <!-- Teksten i canvas -->
+    context.fillStyle = "#FFFFFF";
+    context.font = '14px sans-serif';
     context.fillText('Introvert', 10, 24);
     context.fillText('Ekstrovert', 210, 24);
 
+    context.fillText('Jobbe fysisk', 10, 74);
+    context.fillText('Jobbe digitalt', 210, 74);
+
+    context.fillText('Liker å Lede', 10, 124);
+    context.fillText('Liker å Følge', 210, 124);
+
+    context.fillText('Opptatt av resultat', 10, 174);
+    context.fillText('Opptatt av resultat', 210, 174);
+
+    <!-- Brukere  -->
+    context.fillStyle = "#FFFFFF";
     context.fillText('Johannes', 410, 24,);
     context.fillText('Tony', 410, 44,);
     context.fillText('Andreas', 410, 64,);
     context.fillText('Bunyamin', 410, 84,);
-    context.fillText('kjetil', 410, 104,);
+    context.fillText('Kjetil', 410, 104,);
     context.fillText('Viknan', 410, 124,);
 
-
-    context.fillText('Jobbe fysisk', 10, 74);
-    context.fillText('Jobbe digitalt', 210, 74);
 
     context.beginPath();
     context.moveTo(100, 20);
@@ -81,6 +94,7 @@
     var X = 400;
     var Y = 20;
     var R = 4;
+    
     context.beginPath();
     context.arc(X, Y, R, 0, 2 * Math.PI, false);
     context.fillStyle = "red";
@@ -120,6 +134,30 @@
     context.beginPath();
     context.arc(X, Y, R, 0, 2 * Math.PI, false);
     context.fillStyle = "blue";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    var X = 400;
+    var Y = 100;
+    var R = 4;
+    context.beginPath();
+    context.arc(X, Y, R, 0, 2 * Math.PI, false);
+    context.fillStyle = "turquoise";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    var X = 400;
+    var Y = 120;
+    var R = 4;
+    context.beginPath();
+    context.arc(X, Y, R, 0, 2 * Math.PI, false);
+    context.fillStyle = "purple";
     context.fill();
     context.lineWidth = 1;
     context.strokeStyle = "black";
@@ -202,6 +240,47 @@
             context.strokeStyle = "black";
             context.stroke();
             context.closePath();
+
+            var X = 100 + parseInt(data.lefø, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.prre, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.fosp, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+
+
+
+
         });
 
     <!-- Andreas data -->
@@ -278,7 +357,7 @@
             var R = 4;
             context.beginPath();
             context.arc(X, Y, R, 0, 2 * Math.PI, false);
-            context.fillStyle = "pink";
+            context.fillStyle = "purple";
             context.fill();
             context.lineWidth = 1;
             context.strokeStyle = "black";
