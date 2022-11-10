@@ -19,10 +19,11 @@
 
         <!-- List of different options -->
         <ul>
-            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="visitkort.html">Visitkort</a></li>
             <li><a href="HWR.html">HWR</a></li>
             <li><a href="hwr-report.html">Rapport</a></li>
+            <li><a href="https://bacit.info/hwr/">Domene</a></li>
         </ul>
     </div>
 
@@ -30,87 +31,106 @@
     <div class="content">
 
         <h1>Fyll inn informasjon</h1>
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-                <label for="navn">Navn: </label>
-                <input type="text" name="name" id="navn" placeholder="Legg til navn" required>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Please enter your email" required>
+                </div>
+
+                <div>
+                    <label>Alder:
+                        <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Please enter your age">
+                    </label>
+                </div>
+
+    <button type="submit" id="btnLagre">Lagre</button>
+
+                <div class="form-example">
+                    <input type="submit" value="Get ID">
+                </div>
+
+            </form>
+
+            <!-- Innadvendt eller utadvendt -->
+            <div class="slideinut">
+                <label for="inut">Innadvendt</label>
+                <input type="range" id="inut" name="inut" value="50" min="0"
+                max="100" step="5" class="slider">
+                <label for="inut">Utadvendt</label>
             </div>
-            <div class="form-example">
-                <label for="epost">Epost: </label>
-                <input type="email" name="epost" id="epost" placeholder="Legg til epost" required>
+
+            <!-- jobbe fysisk eller digitalt -->
+            <div class="slidefydi">
+                <label for="fydi">Jobbe fysisk</label>
+                <input type="range" id="fydi" name="fydi" value="50" min="0"
+                       max="100" step="5" class="slider">
+                <label for="fydi">Jobbe digitalt</label>
             </div>
 
-            <div>
-                <label>Alder:
-                    <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Legg til alder">
-                </label>
+             <!-- Lede eller følge -->
+             <div class="slidelefø">
+                <label for="lefø">Liker å lede</label>
+                <input type="range" id="lefø" name="lefø" value="50" min="0"
+                   max="100" step="5" class="slider">
+                 <label for="lefø">Liker å følge</label>
+             </div>
+             
+             <!-- Prossess eller Resultat -->
+        <div class="slideprre">
+            <label for="prre">Opptatt av prossess</label>
+            <input type="range" id="prre" name="prre" value="50" min="0"
+                   max="100" step="5" class="slider">
+            <label for="prre">Opptatt av resultat</label>
+        </div>
+
+
+            <!-- Forberedt eller spontan -->
+            <div class="slidefosp">
+                <label for="fosp">Liker å være forberedt</label>
+                <input type="range" id="fosp" name="fosp" value="50" min="0"
+                   max="100" step="5" class="slider">
+                <label for="fosp">Liker å være spontan</label>
             </div>
 
-            <button type="submit" id="btnLagre">Lagre</button>
+            <!-- Jobbe morgen eller jobbe kveld -->
+        <div class="slidemokv">
+            <label for="mokv">Jobber best om morgenen</label>
+            <input type="range" id="mokv" name="mokv" value="50" min="0"
+            max="100" step="5" class="slider">
+            <label for="mokv">Jobber best om kvelden</label>
 
-            <div class="form-example">
-                <input type="submit" value="Get ID">
+        </div>
+
+            <!-- Møtes på skolen eller møtes annen plass -->
+        <div class="slideskan">
+            <label for="skan">Møtes på skolen</label>
+            <input type="range" id="skan" name="skan" value="50" min="0"
+            max="100" step="5" class="slider">
+            <label for="skan">Møtes annen plass</label>
+        </div>
+
+            <!-- Fast arbeidstid eller fleksibel arbeidstid -->
+        <div class="sliderfafl">
+            <label for="fafl">Fast arbeidstid</label>
+            <input type="range" id="fafl" name="fafl" value="50" min="0"
+            max="100" step="5" class="slider">
+            <label for="fafl">Fleksibel arbeidstid</label>
+        </div>
+
+
+            <!-- Visuelle av data ID -->
+            <div class="id">
+                Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
             </div>
 
-        </form>
-
-        <div class="lorp">
-            <label for="lorp">Lambo</label>
-            <input type="range" id="lorp" name="iore" value="50" class="slider">
-            <label for="lorp">Porsche</label>
-        </div>
-
-        <!-- fysisk or digitalt -->
-        <div>
-            <label for="ford">Jobbe fysisk</label>
-            <input type="range" id="ford" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="ford">Jobbe digitalt</label>
-        </div>
-
-        <!-- Prosess or Resultat -->
-        <div>
-            <label for="rore">Prosessorientert</label>
-            <input type="range" id="rore" name="rore" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="rore">Resultatorientert</label>
-
-        </div>
-
-        <!-- Planlegge og Gjennomføre -->
-        <div class="slidefors">
-            <label for="eors">Jobber effektivt</label>
-            <input type="range" id="eors" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="eors">Jobbe strukturert</label>
-        </div>
-
-        <!-- Lede or følge -->
-        <div class="slidelorf">
-            <label for="lorf">Liker å lede</label>
-            <input type="range" id="lorf" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="lorf">Liker å følge</label>
-        </div>
-
-        <!-- Forberedt or spontant -->
-        <div class="slidefors">
-            <label for="fors">Liker å være forberedt</label>
-            <input type="range" id="fors" name="ford" value="50" min="0"
-                   max="100" step="10" class="slider">
-            <label for="fors">Liker å være spontant</label>
-        </div>
-
-
-
-
-
-        <!-- Visuelle av data ID -->
-        <div class="id">
-            Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px">
-        </div>
-
-
+            <div class="results">
+                <h2>Form Data</h2>
+                <pre></pre>
+            </div>
 
         <!-- Script -->
         <script>
@@ -125,7 +145,7 @@
             }
 
             <!-- Kode fra Janis -->
-            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-02)
             // Example POST method implementation using fetch:
             async function postData(url = '', data = {}) {
                 // Default options are marked with *
