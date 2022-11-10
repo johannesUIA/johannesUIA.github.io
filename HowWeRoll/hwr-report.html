@@ -55,7 +55,10 @@
     const results = document.querySelector('.results pre');
 
     <!-- Tegning av info i canvas  -->
-    context.font = '14px serif';
+
+    <!-- Teksten i canvas -->
+    context.fillStyle = "#FFFFFF";
+    context.font = '14px sans-serif';
     context.fillText('Introvert', 10, 24);
     context.fillText('Ekstrovert', 210, 24);
 
@@ -68,8 +71,8 @@
     context.fillText('Opptatt av resultat', 10, 174);
     context.fillText('Opptatt av resultat', 210, 174);
 
-
-
+    <!-- Brukere  -->
+    context.fillStyle = "#FFFFFF";
     context.fillText('Johannes', 410, 24,);
     context.fillText('Tony', 410, 44,);
     context.fillText('Andreas', 410, 64,);
@@ -91,6 +94,7 @@
     var X = 400;
     var Y = 20;
     var R = 4;
+    
     context.beginPath();
     context.arc(X, Y, R, 0, 2 * Math.PI, false);
     context.fillStyle = "red";
