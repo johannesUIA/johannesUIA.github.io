@@ -77,10 +77,16 @@
     margin-top: 15px;
 }
 
-.slider {
-    width: 25%;
-
+.slidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
 }
+.slider {
+    margin: 0 10px;
+}
+
 
 input {
     font-size: 12px;
