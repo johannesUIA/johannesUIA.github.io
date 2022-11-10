@@ -71,7 +71,7 @@
     context.fillText('Opptatt av resultat', 10, 174);
     context.fillText('Opptatt av resultat', 210, 174);
 
-    <!-- Brukere  -->
+    <!-- Brukere on canvas  -->
     context.fillStyle = "#FFFFFF";
     context.fillText('Johannes', 410, 24,);
     context.fillText('Tony', 410, 44,);
@@ -80,7 +80,8 @@
     context.fillText('Kjetil', 410, 104,);
     context.fillText('Viknan', 410, 124,);
 
-
+    <!-- Stroke on canvas  -->
+    context.strokeStyle = "#FFF"
     context.beginPath();
     context.moveTo(100, 20);
     context.lineTo(200, 20);
@@ -91,6 +92,16 @@
     context.lineTo(200, 70);
     context.stroke();
 
+    context.beginPath();
+    context.moveTo(100, 120);
+    context.lineTo(200, 120);
+    context.stroke();
+
+
+
+
+
+<!-- Navn på brukere -->
     var X = 400;
     var Y = 20;
     var R = 4;
