@@ -1,3 +1,111 @@
+/* -- Font som blir brukt i Navbar -- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+/* -- Definerer design på hele body design -- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* -- Navbar design -- */
+.navbar h2 {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    margin: 0;
+    font-size: 25px;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+ul {
+    float: right;
+    margin-right: 25px;
+}
+ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+ul li a:hover {
+    color: #bbfcff;
+    transition: 0.25s;
+}
+ul li a.active {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1px;
+}
+
+/* -- Gjør hjemmesiden responsive -- */
+@media only screen and (max-width: 1000px) {
+    .navbar h2 {
+        color: white;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navbar {
+        margin: 0;
+        font-size: 25px;
+        background-color: #333333;
+        font-family: 'Roboto', sans-serif;
+        width: auto;
+        min-width: 500px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        float: none;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    ul li a {
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
+
+/* --------- Design av "Visualiser" knapp --------- */
+#btnData {
+    background-color: #404c51;
+    border: none;
+    color: #fff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#btnData:hover {opacity: 0.8;}
+
+#btnData:active {transform: translateY(1px);}
+
+/* -- Design av visualiseringen av data -- */
+.data {
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    padding: 10px;
+}
+.data2 {
+    display: none;
+}
 
 

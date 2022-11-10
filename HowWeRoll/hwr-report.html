@@ -57,6 +57,17 @@
     context.fillText('Introvert', 10, 24);
     context.fillText('Ekstrovert', 210, 24);
 
+    context.fillText('Jobbe fysisk', 10, 74);
+    context.fillText('Jobbe digitalt', 210, 74);
+
+    context.fillText('Liker å Lede', 10, 124);
+    context.fillText('Liker å Følge', 210, 124);
+
+    context.fillText('Opptatt av resultat', 10, 174);
+    context.fillText('Opptatt av resultat', 210, 174);
+
+
+
     context.fillText('Johannes', 410, 24,);
     context.fillText('Tony', 410, 44,);
     context.fillText('Andreas', 410, 64,);
@@ -64,9 +75,6 @@
     context.fillText('kjetil', 410, 104,);
     context.fillText('Viknan', 410, 124,);
 
-
-    context.fillText('Jobbe fysisk', 10, 74);
-    context.fillText('Jobbe digitalt', 210, 74);
 
     context.beginPath();
     context.moveTo(100, 20);
@@ -202,6 +210,47 @@
             context.strokeStyle = "black";
             context.stroke();
             context.closePath();
+
+            var X = 100 + parseInt(data.lefø, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.prre, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.fosp, 10);
+            var Y = 70;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+
+
+
+
         });
 
     <!-- Andreas data -->
