@@ -69,4 +69,10 @@
     margin-top: 80px;
 
 }
+.data{
+    border: 4px solid blue;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
 
