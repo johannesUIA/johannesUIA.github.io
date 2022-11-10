@@ -77,7 +77,7 @@
     context.fillText('Tony', 410, 44,);
     context.fillText('Andreas', 410, 64,);
     context.fillText('Bunyamin', 410, 84,);
-    context.fillText('kjetil', 410, 104,);
+    context.fillText('Kjetil', 410, 104,);
     context.fillText('Viknan', 410, 124,);
 
 
@@ -134,6 +134,30 @@
     context.beginPath();
     context.arc(X, Y, R, 0, 2 * Math.PI, false);
     context.fillStyle = "blue";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    var X = 400;
+    var Y = 100;
+    var R = 4;
+    context.beginPath();
+    context.arc(X, Y, R, 0, 2 * Math.PI, false);
+    context.fillStyle = "turquoise";
+    context.fill();
+    context.lineWidth = 1;
+    context.strokeStyle = "black";
+    context.stroke();
+    context.closePath();
+
+    var X = 400;
+    var Y = 120;
+    var R = 4;
+    context.beginPath();
+    context.arc(X, Y, R, 0, 2 * Math.PI, false);
+    context.fillStyle = "purple";
     context.fill();
     context.lineWidth = 1;
     context.strokeStyle = "black";
