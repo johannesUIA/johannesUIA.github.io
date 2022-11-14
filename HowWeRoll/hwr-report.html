@@ -72,7 +72,7 @@
     context.fillText('Spontant', 210, 224);
     context.fillText('Morgenfugl', 10, 274);
     context.fillText('Nattugle', 210, 274);
-    context.fillText('Møtes på Skole', 10, 324);
+    context.fillText('Møtes på skole', 10, 324);
     context.fillText('Annen plass', 210, 324);
     context.fillText('Fast arbeidstid', 10, 374);
     context.fillText('Fleksibel tid', 210, 374);
@@ -128,9 +128,6 @@
     context.moveTo(100, 370);
     context.lineTo(200, 370);
     context.stroke()
-
-
-
 
 
 <!-- Navn på brukere -->
@@ -208,11 +205,10 @@
     context.closePath();
 
 
-
     <!-- Innsamling av eldre data -->
 
     <!-- Johannes data -->
-    fetch("https://bacit.info/hwr/20221110095916-bc5bd8cf9275474a36727472d32c67df.json", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20221114171125-6528a909e5165f1d0c3cf600916e49b3.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -728,7 +724,7 @@
         });
 
     <!-- Viknan data -->
-    fetch("https://bacit.info/hwr/.json", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20221114171344-7f5dd6dc210ed136ec88c5b9c6486ac5.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
