@@ -35,11 +35,11 @@
         Lim inn ID: <input type="text" value="" id="timetrxidPASTE" style="width: 400px">
         <div class="results" id="results">
             <h2>Data:</h2>
-            <pre class="data2"></pre>
+            <pre class="data2" hidden></pre>
             <input type="button" id="btnData" value="Visualiser">
         </div>
 
-        <div id="debug"></div>
+        <div id="debug" hidden> </div>
         <canvas id="report" width="500"></canvas>
     </section>
     </div>
@@ -60,13 +60,10 @@
     context.font = '14px sans-serif';
     context.fillText('Introvert', 10, 24);
     context.fillText('Ekstrovert', 210, 24);
-
     context.fillText('Jobbe fysisk', 10, 74);
     context.fillText('Jobbe digitalt', 210, 74);
-
     context.fillText('Liker å Lede', 10, 124);
     context.fillText('Liker å Følge', 210, 124);
-
     context.fillText('Opptatt av resultat', 10, 174);
     context.fillText('Opptatt av resultat', 210, 174);
 
@@ -95,6 +92,11 @@
     context.moveTo(100, 120);
     context.lineTo(200, 120);
     context.stroke();
+
+    context.beginPath();
+    context.moveTo(100, 170);
+    context.lineTo(200, 170);
+    context.stroke()
 
 
 
@@ -432,10 +434,10 @@
                 results.innerText = JSON.stringify(data, null, 2);
                 document.querySelector("#debug").innerText = "Fornavn: " + data.navn + "\nemail: " + data.email + "\nAlder: " + data.alder;
 
-                context.fillStyle = "black";
-                context.fillText(data.navn, 410, 104,);
+                context.fillStyle = "white";
+                context.fillText(data.navn, 410, 144,);
                 var X = 400;
-                var Y = 100;
+                var Y = 144;
                 var R = 4;
                 context.beginPath();
                 context.arc(X, Y, R, 0, 2 * Math.PI, false);
@@ -460,6 +462,18 @@
 
                 var X = 100 + parseInt(data.ford, 10);
                 var Y = 70;
+                var R = 4;
+                context.beginPath();
+                context.arc(X, Y, R, 0, 2 * Math.PI, false);
+                context.fillStyle = "lightgreen";
+                context.fill();
+                context.lineWidth = 1;
+                context.strokeStyle = "black";
+                context.stroke();
+                context.closePath();
+
+                var X = 100 + parseInt(data.lorf, 10);
+                var Y = 120;
                 var R = 4;
                 context.beginPath();
                 context.arc(X, Y, R, 0, 2 * Math.PI, false);
