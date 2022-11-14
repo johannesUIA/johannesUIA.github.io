@@ -31,16 +31,21 @@
     <div class="content">
 
         <h1>Fyll inn informasjon</h1>
+
+        <!-- Skriv in navn -->
             <form action="" method="get" class="form-example">
                 <div class="form-example">
                     <label for="navn">Navn: </label>
                     <input type="text" name="navn" id="navn" placeholder="Vennligst skriv inn navn" required>
                 </div>
+
+                <!-- Skriv in epost -->
                 <div class="form-example">
                     <label for="epost">Email: </label>
                     <input type="email" name="epost" id="epost" placeholder="Vennligst skriv inn epost" required>
                 </div>
 
+                <!-- Skriv inn alder -->
                 <div>
                     <label>Alder:
                         <input type="number" name="alder" id="alder" max="100" min="10" placeholder="Vennligst skriv inn alder">
@@ -62,7 +67,7 @@
                 <label for="ioru">Utadvendt</label>
             </div>
 
-            <!-- jobbe fysisk eller digitalt -->
+            <!-- Jobbe fysisk eller digitalt -->
             <div class="ford">
                 <label for="ford">Jobbe fysisk</label>
                 <input type="range" id="ford" name="ford" value="50" min="0"
@@ -70,7 +75,7 @@
                 <label for="ford">Jobbe digitalt</label>
             </div>
 
-             <!-- Lede eller følge -->
+             <!-- Leder-olle eller følge-rolle -->
              <div class="lorf">
                 <label for="lorf">Liker å lede</label>
                 <input type="range" id="lorf" name="lorf" value="50" min="0"
@@ -95,17 +100,17 @@
                 <label for="fors">Spontant</label>
             </div>
 
-            <!-- Jobbe morgen eller jobbe kveld -->
+            <!-- Morgenfugl eller Nattugle -->
         <div class="mork">
-            <label for="mork">Jobber best om morgenen</label>
+            <label for="mork">Morgenfugl</label>
             <input type="range" id="mork" name="mork" value="50" min="0"
             max="100" step="5" class="slider">
-            <label for="mork">Jobber best om kvelden</label>
+            <label for="mork">Nattugle</label>
 
         </div>
 
             <!-- Møtes på skolen eller møtes annen plass -->
-        <div class="slideskan">
+        <div class="sorm">
             <label for="sorm">Møtes på skolen</label>
             <input type="range" id="sorm" name="sorm" value="50" min="0"
             max="100" step="5" class="slider">
