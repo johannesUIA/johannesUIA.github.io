@@ -252,12 +252,12 @@
         });
 
     <!-- Tony data -->
-    fetch("https://bacit.info/hwr/.json", {cache: 'no-cache'})
+    fetch("https://bacit.info/hwr/20221114163643-7f4f2e7320dd4adeb6fdbd8d2dd04a6b.json", {cache: 'no-cache'})
         .then(response => response.json())
         .then(data => {
             console.log(data);
 
-            var X = 100 + parseInt(data.inut, 10);
+            var X = 100 + parseInt(data.ioru, 10);
             var Y = 20;
             var R = 4;
             context.beginPath();
@@ -269,7 +269,7 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.fydi, 10);
+            var X = 100 + parseInt(data.ford, 10);
             var Y = 70;
             var R = 4;
             context.beginPath();
@@ -281,8 +281,8 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.lefø, 10);
-            var Y = 70;
+            var X = 100 + parseInt(data.lorf, 10);
+            var Y = 120;
             var R = 4;
             context.beginPath();
             context.arc(X, Y, R, 0, 2 * Math.PI, false);
@@ -293,8 +293,8 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.prre, 10);
-            var Y = 70;
+            var X = 100 + parseInt(data.porr, 10);
+            var Y = 170;
             var R = 4;
             context.beginPath();
             context.arc(X, Y, R, 0, 2 * Math.PI, false);
@@ -305,8 +305,44 @@
             context.stroke();
             context.closePath();
 
-            var X = 100 + parseInt(data.fosp, 10);
-            var Y = 70;
+            var X = 100 + parseInt(data.fors, 10);
+            var Y = 220;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.mork, 10);
+            var Y = 270;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.sorm, 10);
+            var Y = 320;
+            var R = 4;
+            context.beginPath();
+            context.arc(X, Y, R, 0, 2 * Math.PI, false);
+            context.fillStyle = "pink";
+            context.fill();
+            context.lineWidth = 1;
+            context.strokeStyle = "black";
+            context.stroke();
+            context.closePath();
+
+            var X = 100 + parseInt(data.forf, 10);
+            var Y = 370;
             var R = 4;
             context.beginPath();
             context.arc(X, Y, R, 0, 2 * Math.PI, false);
@@ -560,7 +596,7 @@
                 context.stroke();
                 context.closePath();
 
-                var X = 100 + parseInt(data.aorf, 10);
+                var X = 100 + parseInt(data.forf, 10);
                 var Y = 370;
                 var R = 4;
                 context.beginPath();
