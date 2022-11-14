@@ -103,6 +103,7 @@ button {
 
 .id {
     font-size: 12px;
+    margin-top: 15px;
 }
 
 label {
@@ -112,5 +113,8 @@ label {
     font-size: 12px;
 }
 
+pre {
+    display: none;
+}
 
 
