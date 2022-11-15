@@ -117,4 +117,16 @@ pre {
     display: none;
 }
 
+.left{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.right{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
 
