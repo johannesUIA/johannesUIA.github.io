@@ -24,23 +24,23 @@
 /*---Design av Andreas visitkort---*/
 .andreas{
     float: left;
-    margin-left: 60px;
-    margin-top: -50px;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 #andreasbilde{
     margin-top: -210px;
     margin-left: -10px;
-    border: solid;
+    border: solid 1px;
     border-radius: 25px;
     position: fixed;
 }
 #andreastext{
-    width: 28%;
+    width: 25%;
     height: 200px;
     margin-left: 250px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
-    border: solid;
+    border: solid 1px;
     margin-top: -210px;
     position: fixed;
 }
@@ -48,20 +48,20 @@
 /*---Design av Benjamins visitkort---*/
 .benjamin{
     margin-left: 1000px;
-    margin-top: -50px;
+    margin-top: 25px;
     position: fixed;
 }
 #benjaminbilde{
     margin-top: -210px;
     margin-left: -250px;
     border-radius: 25px;
-    border: solid;
+    border: solid 1px;
     position: fixed;
 }
 #benjamintext{
-    border: solid;
+    border: solid 1px;
     position: fixed;
-    width: 28%;
+    width: 25%;
     height: 200px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
@@ -71,24 +71,24 @@
 /*---Design av Johannes visitkort---*/
 .johannes{
     float: left;
-    margin-left: 60px;
-    margin-top: -50px;
+    margin-left: 20px;
+    margin-top: 25px;
     position: fixed;
 }
 #johannesbilde{
     margin-top: 10px;
     margin-left: -10px;
-    border: solid;
+    border: solid 1px;
     border-radius: 25px;
     position: fixed;
 }
 #johannestext{
-    width: 28%;
+    width: 25%;
     height: 200px;
     margin-left: 250px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
-    border: solid;
+    border: solid 1px;
     margin-top: 10px;
     position: fixed;
 }
@@ -96,20 +96,20 @@
 /*---Design av Tonys visitkort---*/
 .tony{
     margin-left: 1000px;
-    margin-top: -50px;
+    margin-top: 25px;
     position: fixed;
 }
 #tonybilde{
     margin-top: 10px;
     margin-left: -250px;
     border-radius: 25px;
-    border: solid;
+    border: solid 1px;
     position: fixed;
 }
 #tonytext{
-    border: solid;
+    border:solid 1px;
     position: fixed;
-    width: 28%;
+    width: 25%;
     height: 200px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
@@ -119,24 +119,24 @@
 /*---Design av Kjetils visitkort---*/
 .kjetil{
     float: left;
-    margin-left: 60px;
-    margin-top: -50px;
+    margin-left: 20px;
+    margin-top: 25px;
     position: fixed;
 }
 #kjetilbilde{
     margin-top: 230px;
     margin-left: -10px;
-    border: solid;
+    border: solid 1px;
     border-radius: 25px;
     position: fixed;
 }
 #kjetiltext{
-    width: 28%;
+    width: 25%;
     height: 200px;
     margin-left: 250px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
-    border: solid;
+    border: solid 1px;
     margin-top: 230px;
     position: fixed;
 }
@@ -144,20 +144,20 @@
 /*---Design av Viknans visitkort---*/
 .viknan{
     margin-left: 1000px;
-    margin-top: -50px;
+    margin-top: 25px;
     position: fixed;
 }
 #viknanbilde{
     margin-top: 230px;
     margin-left: -250px;
     border-radius: 25px;
-    border: solid;
+    border: solid 1px;
     position: fixed;
 }
 #viknantext{
-    border: solid;
+    border: solid 1px;
     position: fixed;
-    width: 28%;
+    width: 25%;
     height: 200px;
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
