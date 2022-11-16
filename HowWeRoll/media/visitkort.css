@@ -68,21 +68,21 @@
     margin-top: -210px;
 }
 
-/*---Design av Theas visitkort---*/
-.thea{
+/*---Design av Johannes visitkort---*/
+.johannes{
     float: left;
     margin-left: 60px;
     margin-top: -50px;
     position: fixed;
 }
-#theabilde{
+#johannesbilde{
     margin-top: 10px;
     margin-left: -10px;
     border: solid;
     border-radius: 25px;
     position: fixed;
 }
-#theatext{
+#johannestext{
     width: 28%;
     height: 200px;
     margin-left: 250px;
@@ -162,31 +162,6 @@
     background-color: grey;
     border-radius: 0px 25px 25px 0px;
     margin-top: 230px;
-}
-
-/*---Design av Johannes visitkort---*/
-.johannes{
-    float: left;
-    margin-left: 60px;
-    margin-top: -50px;
-    position: fixed;
-}
-#johannesbilde{
-    margin-top: 450px;
-    margin-left: -10px;
-    border: solid;
-    border-radius: 25px;
-    position: fixed;
-}
-#johannestext{
-    width: 28%;
-    height: 200px;
-    margin-left: 250px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    border: solid;
-    margin-top: 450px;
-    position: fixed;
 }
 
 .navbar ul li a{
