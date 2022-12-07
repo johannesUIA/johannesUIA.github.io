@@ -1,0 +1,13 @@
+body{
+
+}
+
+.TestKalender{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+}
+
+.Måned
