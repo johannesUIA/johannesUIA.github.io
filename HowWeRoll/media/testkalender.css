@@ -10,4 +10,21 @@ body{
     color: black;
 }
 
-.Måned
+.Måned{
+    text-align: center;
+    background: white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 2px solid red;
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: Elaphant;
+}
