@@ -259,5 +259,6 @@ button {
 }
 
 #display-month {
+  text-transform: capitalize;
   color: #ffffff
 }
