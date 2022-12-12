@@ -11,14 +11,16 @@ const modalNewEvent = document.getElementById("modal-new-event");
 const modalDeleteEvent = document.getElementById("modal-delete-event");
 const backDrop = document.getElementById("modal-backdrop");
 const inputEventTitle = document.getElementById("input-event-title");
+
+<!-- la denne stå på engelsk fordi den er konstant og koplet mot tidssone--!>
 const weekdays = [
-  "Sunday",
   "Monday",
   "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
   "Saturday",
+  "Sunday",
 ];
 
 function openModal(date) {
@@ -57,6 +59,8 @@ function load() {
     month: "numeric",
     day: "numeric",
   });
+
+  <!-- Padding days er tomme bokser med dager fra første og siste uke i måneden -->
   const paddingDays = weekdays.indexOf(dateString.split(", ")[0]);
 
   document.getElementById("display-month").innerText = `${dt.toLocaleDateString(
