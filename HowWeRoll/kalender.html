@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Skrifttype -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Symbol til font-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-
-    <!-- Linkes til index.css, slik a det blir.. r oversiktlig og får samme stil som alle sidene.-->
-    <link rel="stylesheet" href="media/Kalender.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media/Kalender.css" />
 
     <title>Kalender</title>
   </head>
@@ -30,7 +15,7 @@
     <div class="banner">
       <!-- Navigation bar -->
       <div class="navbar">
-        <!-- Logo back to UIA site -->
+        <!-- Logo tilbake til UIA siden -->
         <a href="https://www.uia.no">
           <img src="media/images/logo.png" alt="logo.uia" class="logo" />
         </a>
@@ -62,32 +47,34 @@
           </div>
 
           <div id="weekdays">
-            <div>Sunday</div>
-            <div>Monday</div>
-            <div>Tuesday</div>
-            <div>Wednesday</div>
-            <div>Thursday</div>
-            <div>Friday</div>
-            <div>Saturday</div>
+            <div>Mandag</div>
+            <div>Tirsdag</div>
+            <div>Onsdag</div>
+            <div>Torsdag</div>
+            <div>Fredag</div>
+            <div>Lørdag</div>
+            <div>Søndag</div>
           </div>
 
           <div id="calendar"></div>
         </div>
 
         <div id="modal-new-event">
-          <h2>New Event</h2>
+          <h2>Ny Event</h2>
 
           <input id="input-event-title" placeholder="Event Title" />
 
-          <button id="button-save">Save</button>
-          <button id="button-cancel">Cancel</button>
+          <button id="button-save">Lagre</button>
+          <button id="button-cancel">Avbryt</button>
         </div>
 
         <div id="modal-delete-event">
           <h2>Event</h2>
+
           <p id="text-event"></p>
-          <button id="button-delete">Delete</button>
-          <button id="button-close">Close</button>
+
+          <button id="button-delete">Slett</button>
+          <button id="button-close">Lukk</button>
         </div>
 
         <div id="modal-backdrop"></div>
