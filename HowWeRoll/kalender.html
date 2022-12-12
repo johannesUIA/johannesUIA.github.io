@@ -1,34 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Skrifttype -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
+    <!-- Symbol til font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Linkes til index.css, slik at det blir mer oversiktlig og får samme stil som alle sidene.-->
+    <link rel="stylesheet" href="media/Kalender.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Kalender</title>
-    <link rel="stylesheet" href="media/kalender.css">
-</head>
+  </head>
 
-<body>
-<!-- Website Banner -->
-<div class="banner">
-
-    <!-- Navigation bar -->
-    <div class="navbar">
-
+  <!-- HTML for headeren som brukes til hver html side -->
+  <body>
+    <!-- Website Banner -->
+    <div class="banner">
+      <!-- Navigation bar -->
+      <div class="navbar">
         <!-- Logo back to UIA site -->
         <a href="https://www.uia.no">
-            <img src="media/images/logo.png" alt="logo.uia" class="logo">
+          <img src="media/images/logo.png" alt="logo.uia" class="logo" />
         </a>
 
         <!-- List of different links -->
         <ul>
-            <li><a href="index.html">Hjem</a></li>
-            <li><a href="visitkort.html">Visitkort</a></li>
-            <li><a href="hwr.html">HWR</a></li>
-            <li><a href="hwr-report.html">Rapport</a></li>
-            <li><a href="kalender.html">Kalender</a></li>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="visitkort.html">Visitkort</a></li>
+          <li><a href="HWR.html">HWR</a></li>
+          <li><a href="hwr-report.html">Rapport</a></li>
+          <li><a href="Kalender.html">Kalender</a></li>
         </ul>
-    </div>
-</div>
+      </div>
 
-</body>
+      <!-- Denne siden er mye kopi og ikke gjort etter vår kunnskapsstige. Vi har lært mye av å skrive den og skjønner en del.
+         Hovedformålet var å legge til noe som kunne være nyttig i gruppearbeidet og prosjektet. Vi syns kalender og huskelapper
+        er en genial funksjon og ha i et slikt prosjekt da vi kan skrive opp frister og møter slik at det blir husket. 
+      Og vi kan dele kjappe ideer og gjørmål ved å bruke post-it lappene.  -->
+
+      <!-- Kalender. Koden er inspirert av og hentet fra: https://github.com/portexe/VanillaCalendar/blob/master/index.html -->
+      <div class="calendar-wrapper">
+        <div class="calendar-container">
+          <div class="calender-header">
+            <div id="display-month"></div>
+            <div class="navigate-buttons">
+              <button id="button-previous">Back</button>
+              <button id="button-next">Next</button>
+            </div>
+          </div>
+
+          <div id="weekdays">
+            <div>Sunday</div>
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+          </div>
+
+          <div id="calendar"></div>
+        </div>
+
+        <div id="modal-new-event">
+          <h2>New Event</h2>
+
+          <input id="input-event-title" placeholder="Event Title" />
+
+          <button id="button-save">Save</button>
+          <button id="button-cancel">Cancel</button>
+        </div>
+
+        <div id="modal-delete-event">
+          <h2>Event</h2>
+          <p id="text-event"></p>
+          <button id="button-delete">Delete</button>
+          <button id="button-close">Close</button>
+        </div>
+
+        <div id="modal-backdrop"></div>
+      </div>
+    </div>
+
+    <script src="./kalender.js"></script>
+  </body>
 </html>

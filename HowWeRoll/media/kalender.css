@@ -1,121 +1,264 @@
 /*---Font type used---*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 /*---Background for the website---*/
 .banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/krs.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url(images/krs.jpg);
+  background-size: cover;
+  background-position: center;
 }
 /*---Navigation bar style---*/
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /*---Navigation bar list style---*/
-.navbar ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 /*---Navigation bar list transition---*/
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #D0002D;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #d0002d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 /*---Navigation bar list transition hover---*/
-.navbar ul li:hover::after{
-    width: 100%;
-
+.navbar ul li:hover::after {
+  width: 100%;
 }
 /*---Logo style---*/
-.logo{
-    width: 120px;
-    cursor: pointer;
+.logo {
+  width: 120px;
+  cursor: pointer;
 }
 
 /*---Navigation bar list style---*/
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
 }
 
 /*---Main content styling---*/
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #FFFFFF;
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff;
 }
 /*---Main content h1 styling---*/
 .content h1 {
-    font-size: 50px;
-    margin-top: 80px;
+  font-size: 50px;
+  margin-top: 80px;
 }
 
 /*---Main content p styling---*/
 .content p {
-    margin: 20px auto;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 25px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 /*---Button styling---*/
 button {
-    width: 240px;
-    font-size: 20px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 0 solid #FFFFFF;
-    background: transparent;
-    color: #D0002D;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+  width: 240px;
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 0 solid #ffffff;
+  background: transparent;
+  color: #110e0f;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 /*---Button span styling---*/
-span{
-    background: #FFFFFF;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+span {
+  background: #ffffff;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
 }
 
 /*---Button span hover styling---*/
-button:hover span{
-    width: 100%;
+button:hover span {
+  width: 100%;
 }
 
 /*---Button hover styling---*/
 button:hover {
-    border: none;
+  border: none;
+}
+
+/* Style til kalenderen */
+/* KALENDER. Koden er inspiret av of hentet fra: https://github.com/portexe/VanillaCalendar/blob/master/style.css */
+.calendar-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(27, 23, 23);
+}
+
+.calender-header {
+  padding: 10px;
+  color: #c60c30;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.calender-header button {
+  color: #ffffff;
+  background-color: #c60c30;
+}
+.calendar-container {
+  width: 770px;
+}
+#weekdays {
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  justify-content: space-between;
+}
+#weekdays div {
+  width: 100px;
+  padding: 10px;
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  color: #ffffff;
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #e00c0c;
+  margin: 5px;
+  box-shadow: 0px 0px 3px #e00c0c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.day:hover {
+  background-color: #fc728e;
+}
+
+.day + #currentDay {
+  background-color: #ab092a;
+}
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: #c60c30;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+
+.padding {
+  cursor: default !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: none !important;
+}
+#modal-new-event,
+#modal-delete-event {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+#input-event-title {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px rgb(201, 224, 231);
+}
+#input-event-title.error {
+  border: 2px solid red;
+}
+#button-cancel,
+#button-delete {
+  color: #ffffff;
+  background-color: #c60c30;
+}
+#button-save,
+#button-close {
+  color: #ffffff;
+  background-color: #2e784a;
+}
+#text-event {
+  font-size: 14px;
+}
+#modal-backdrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#display-month {
+  text-transform: capitalize;
+  color: #ffffff
 }
