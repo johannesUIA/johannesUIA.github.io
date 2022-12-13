@@ -122,7 +122,6 @@ button:hover {
 }
 
 /* Style til kalenderen */
-/* KALENDER. Koden er inspiret av of hentet fra: https://github.com/portexe/VanillaCalendar/blob/master/style.css */
 .calendar-wrapper {
   display: flex;
   justify-content: center;
