@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 150vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/neon.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/night.jpg);
     background-size: cover;
     background-position: center;
 }
