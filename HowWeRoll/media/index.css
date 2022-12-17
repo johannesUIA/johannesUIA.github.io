@@ -4,6 +4,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 /*---Background for the website---*/
 .banner {
     width: 100%;
@@ -12,6 +13,7 @@
     background-size: cover;
     background-position: center;
 }
+
 /*---Navigation bar style---*/
 .navbar{
     width: 85%;
@@ -21,12 +23,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
 /*---Navigation bar list style---*/
 .navbar ul li a{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
 }
+
 /*---Navigation bar list transition---*/
 .navbar ul li::after{
     content: '';
@@ -38,6 +42,7 @@
     bottom: -10px;
     transition: 0.5s;
 }
+
 /*---Navigation bar list transition hover---*/
 .navbar ul li:hover::after{
     width: 100%;
@@ -71,6 +76,7 @@ color: #D0002D;
     text-align: center;
     color: #FFFFFF;
 }
+
 /*---Main content h1 styling---*/
 .content h1 {
     font-size: 50px;
