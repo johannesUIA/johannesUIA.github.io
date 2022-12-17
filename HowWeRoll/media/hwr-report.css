@@ -47,6 +47,11 @@
 
 }
 
+/*--- Navigation bar light up on click---*/
+.navbar ul li a:hover:active{
+    color: #D0002D;
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;

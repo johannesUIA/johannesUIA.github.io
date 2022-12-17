@@ -44,6 +44,12 @@
 .navbar ul li:hover::after {
   width: 100%;
 }
+
+/*--- Navigation bar light up on click---*/
+.navbar ul li a:hover:active{
+  color: #D0002D;
+}
+
 /*---Logo style---*/
 .logo {
   width: 120px;

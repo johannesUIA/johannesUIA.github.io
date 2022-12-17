@@ -185,6 +185,11 @@
 
 }
 
+/*--- Navigation bar light up on click---*/
+.navbar ul li a:hover:active{
+    color: #D0002D;
+}
+
 .logo{
     width: 120px;
     cursor: pointer;
