@@ -1,5 +1,5 @@
-// Dette er javascripten til kalenderen
-// Koden er inspirert av og hentet fra: https://github.com/portexe/VanillaCalendar/blob/master/script.js
+
+
 let nav = 0;
 let clicked = null;
 let events = localStorage.getItem("events")
@@ -26,7 +26,7 @@ const weekdays = [
 function openModal(date) {
   clicked = date;
 
-  /* Gjør at det kommer opp en skriverute når man klikker på en dag i kalenderen. */
+  
   const eventForDay = events.find((e) => e.date === clicked);
 
   if (eventForDay) {
@@ -82,7 +82,7 @@ function load() {
       daySquare.innerText = i - paddingDays;
       const eventForDay = events.find((e) => e.date === dayString);
 
-      /* Gjør at ruten med dagens dato blir fremhevet. */
+   
       if (i - paddingDays === day && nav === 0) {
         daySquare.id = "currentDay";
       }

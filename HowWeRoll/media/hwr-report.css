@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 150vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/neon.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/night.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -47,6 +47,11 @@
 
 }
 
+/*--- Navigation bar light up on click---*/
+.navbar ul li a:hover:active{
+    color: #D0002D;
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -67,10 +72,11 @@
 .content h1 {
     font-size: 50px;
     margin-top: 100px;
+    margin-bottom: 10px;
 
 }
 .data{
-    border: 4px solid #FFBF00;
+    border: 2px solid #ffffff;
     margin: auto;
     margin-top: 5px;
     width: 50%;

@@ -5,7 +5,7 @@
   padding: 0;
   font-family: sans-serif;
 }
-/*---Background for the website---*/
+/*---bakgrun til webside---*/
 .banner {
   width: 100%;
   min-height: 100vh;
@@ -26,7 +26,7 @@
 /*---Navigation bar list style---*/
 .navbar ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 /*---Navigation bar list transition---*/
@@ -44,6 +44,12 @@
 .navbar ul li:hover::after {
   width: 100%;
 }
+
+/*--- Navigation bar light up on click---*/
+.navbar ul li a:hover:active{
+  color: #D0002D;
+}
+
 /*---Logo style---*/
 .logo {
   width: 120px;
@@ -121,8 +127,7 @@ button:hover {
   border: none;
 }
 
-/* Style til kalenderen */
-/* KALENDER. Koden er inspiret av of hentet fra: https://github.com/portexe/VanillaCalendar/blob/master/style.css */
+
 .calendar-wrapper {
   display: flex;
   justify-content: center;
