@@ -36,7 +36,7 @@
             <form action="" method="get" class="form-example">
                 <div class="form-example">
                     <label for="navn">Navn:
-                    <input type="text" name="navn" id="navn" placeholder="Vennligst skriv inn navn" required>
+                    <input type="text" name="navn" id="navn" placeholder="Vennligst skriv inn navn" required autofocus>
                     </label>
                 </div>
 
@@ -147,7 +147,8 @@
                 timetrxidCOPY.hidden=false;
             }
 
-            <!-- Kode fra Janis -->
+             
+             
             // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-02)
             // Example POST method implementation using fetch:
             async function postData(url = '', data = {}) {
