@@ -1,291 +1,289 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 .banner {
-    width: 100%;
-    height: 180vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.90)), url(images/night.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 180vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url(images/night.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*---Design av Andreas visitkort---*/
-.andreas{
-    float: left;
-    margin-left: 20px;
-    margin-top: 25px;
+.andreas {
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
 }
-#andreasbilde{
-    margin-top: -210px;
-    margin-left: -10px;
-    border: solid 1px;
-    border-radius: 25px;
-    position: fixed;
+#andreasbilde {
+  margin-top: -210px;
+  margin-left: -10px;
+  border: solid 1px;
+  border-radius: 25px;
+  position: fixed;
 }
-#andreastext{
-    width: 25%;
-    height: 200px;
-    margin-left: 250px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    border: solid 1px;
-    margin-top: -210px;
-    position: fixed;
+#andreastext {
+  width: 25%;
+  height: 200px;
+  margin-left: 250px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  border: solid 1px;
+  margin-top: -210px;
+  position: fixed;
 }
 
 /*---Design av Benjamins visitkort---*/
-.benjamin{
-    margin-left: 1000px;
-    margin-top: 25px;
-    position: fixed;
+.benjamin {
+  margin-left: 1000px;
+  margin-top: 25px;
+  position: fixed;
 }
-#benjaminbilde{
-    margin-top: -210px;
-    margin-left: -250px;
-    border-radius: 25px;
-    border: solid 1px;
-    position: fixed;
+#benjaminbilde {
+  margin-top: -210px;
+  margin-left: -250px;
+  border-radius: 25px;
+  border: solid 1px;
+  position: fixed;
 }
-#benjamintext{
-    border: solid 1px;
-    position: fixed;
-    width: 25%;
-    height: 200px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    margin-top: -210px;
+#benjamintext {
+  border: solid 1px;
+  position: fixed;
+  width: 25%;
+  height: 200px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  margin-top: -210px;
 }
 
 /*---Design av Johannes visitkort---*/
-.johannes{
-    float: left;
-    margin-left: 20px;
-    margin-top: 25px;
-    position: fixed;
+.johannes {
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  position: fixed;
 }
-#johannesbilde{
-    margin-top: 10px;
-    margin-left: -10px;
-    border: solid 1px;
-    border-radius: 25px;
-    position: fixed;
+#johannesbilde {
+  margin-top: 10px;
+  margin-left: -10px;
+  border: solid 1px;
+  border-radius: 25px;
+  position: fixed;
 }
-#johannestext{
-    width: 25%;
-    height: 200px;
-    margin-left: 250px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    border: solid 1px;
-    margin-top: 10px;
-    position: fixed;
+#johannestext {
+  width: 25%;
+  height: 200px;
+  margin-left: 250px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  border: solid 1px;
+  margin-top: 10px;
+  position: fixed;
 }
 
 /*---Design av Tonys visitkort---*/
-.tony{
-    margin-left: 1000px;
-    margin-top: 25px;
-    position: fixed;
+.tony {
+  margin-left: 1000px;
+  margin-top: 25px;
+  position: fixed;
 }
-#tonybilde{
-    margin-top: 10px;
-    margin-left: -250px;
-    border-radius: 25px;
-    border: solid 1px;
-    position: fixed;
+#tonybilde {
+  margin-top: 10px;
+  margin-left: -250px;
+  border-radius: 25px;
+  border: solid 1px;
+  position: fixed;
 }
-#tonytext{
-    border:solid 1px;
-    position: fixed;
-    width: 25%;
-    height: 200px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    margin-top: 10px;
+#tonytext {
+  border: solid 1px;
+  position: fixed;
+  width: 25%;
+  height: 200px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  margin-top: 10px;
 }
 
 /*---Design av Kjetils visitkort---*/
-.kjetil{
-    float: left;
-    margin-left: 20px;
-    margin-top: 25px;
-    position: fixed;
+.kjetil {
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  position: fixed;
 }
-#kjetilbilde{
-    margin-top: 230px;
-    margin-left: -10px;
-    border: solid 1px;
-    border-radius: 25px;
-    position: fixed;
+#kjetilbilde {
+  margin-top: 230px;
+  margin-left: -10px;
+  border: solid 1px;
+  border-radius: 25px;
+  position: fixed;
 }
-#kjetiltext{
-    width: 25%;
-    height: 200px;
-    margin-left: 250px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    border: solid 1px;
-    margin-top: 230px;
-    position: fixed;
+#kjetiltext {
+  width: 25%;
+  height: 200px;
+  margin-left: 250px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  border: solid 1px;
+  margin-top: 230px;
+  position: fixed;
 }
 
 /*---Design av Viknans visitkort---*/
-.viknan{
-    margin-left: 1000px;
-    margin-top: 25px;
-    position: fixed;
+.viknan {
+  margin-left: 1000px;
+  margin-top: 25px;
+  position: fixed;
 }
-#viknanbilde{
-    margin-top: 230px;
-    margin-left: -250px;
-    border-radius: 25px;
-    border: solid 1px;
-    position: fixed;
+#viknanbilde {
+  margin-top: 230px;
+  margin-left: -250px;
+  border-radius: 25px;
+  border: solid 1px;
+  position: fixed;
 }
-#viknantext{
-    border: solid 1px;
-    position: fixed;
-    width: 25%;
-    height: 200px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    margin-top: 230px;
-}
-
-.thea{
-    float: left;
-    margin-left: 20px;
-    margin-top: 25px;
-    position: fixed;   
+#viknantext {
+  border: solid 1px;
+  position: fixed;
+  width: 25%;
+  height: 200px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  margin-top: 230px;
 }
 
-#theabilde{
-    margin-top: 430px; 
-    margin-left: -1010px;
-    border: solid 1px;
-    border-radius: 25px;
-    position: fixed;}
-
-    #theatext{
-    width: 25%;
-    height: 200px; 
-    margin-left: -750px;
-    background-color: grey;
-    border-radius: 0px 25px 25px 0px;
-    border: solid 1px;
-    margin-top: 430px;
-    position: fixed;
+.thea {
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  position: fixed;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #D0002D;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+#theabilde {
+  margin-top: 430px;
+  margin-left: -1010px;
+  border: solid 1px;
+  border-radius: 25px;
+  position: fixed;
 }
 
-.navbar ul li:hover::after{
-    width: 100%;
+#theatext {
+  width: 25%;
+  height: 200px;
+  margin-left: -750px;
+  background-color: grey;
+  border-radius: 0px 25px 25px 0px;
+  border: solid 1px;
+  margin-top: 430px;
+  position: fixed;
+}
 
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #d0002d;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
 }
 
 /*--- Navigation bar light up on click---*/
-.navbar ul li a:hover:active{
-    color: #D0002D;
+.navbar ul li a:hover:active {
+  color: #d0002d;
 }
 
-.logo{
-    width: 120px;
-    cursor: pointer;
+.logo {
+  width: 120px;
+  cursor: pointer;
 }
 
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
 }
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #FFFFFF;
-
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff;
 }
 
 .content h1 {
-    font-size: 50px;
-    margin-top: 80px;
-
+  font-size: 50px;
+  margin-top: 80px;
 }
 
 .content p {
-    margin: 20px auto;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 25px;
-
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
-button{
-    width: 240px;
-    font-size: 20px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 0 solid #FFFFFF;
-    background: transparent;
-    color: #D0002D;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+button {
+  width: 240px;
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 0 solid #ffffff;
+  background: transparent;
+  color: #d0002d;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
-span{
-    background: #FFFFFF;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+span {
+  background: #ffffff;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
 }
 
-button:hover span{
-    width: 100%;
+button:hover span {
+  width: 100%;
 }
 
 button:hover {
-    border: none;
+  border: none;
 }
 
 h4 {
-    font-size: 12px;
+  font-size: 12px;
 }

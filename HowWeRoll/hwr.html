@@ -1,194 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>UIA Gruppe 7A</title>
-    <link rel="stylesheet" href="media/hwr.css">
-</head>
+    <link rel="stylesheet" href="media/hwr.css" />
+  </head>
 
-<body>
-<div class="banner">
-
-    <!-- Navigation bar -->
-    <div class="navbar">
-
+  <body>
+    <div class="banner">
+      <!-- Navigation bar -->
+      <div class="navbar">
         <!-- Logo back to UIA site -->
         <a href="https://www.uia.no">
-            <img src="media/images/uia_logo_white.png" alt="logo.uia" class="logo">
+          <img
+            src="media/images/uia_logo_white.png"
+            alt="logo.uia"
+            class="logo"
+          />
         </a>
 
         <!-- List of different options -->
         <ul>
-            <li><a href="index.html">Hjem</a></li>
-            <li><a href="../Flaggoppgaven/flaggoppgaven.html">Flaggoppg.</a></li>
-            <li><a href="visitkort.html">Visitkort</a></li>
-            <li><a href="hwr.html">HWR</a></li>
-            <li><a href="hwr-report.html">Rapport</a></li>
-            <li><a href="kalender.html">Kalender</a></li>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="../Flaggoppgaven/flaggoppgaven.html">Flaggoppg.</a></li>
+          <li><a href="visittkort.html">Visittkort</a></li>
+          <li><a href="hwr.html">HWR</a></li>
+          <li><a href="hwr-report.html">Rapport</a></li>
+          <li><a href="kalender.html">Kalender</a></li>
         </ul>
-    </div>
+      </div>
 
-    <!-- Main content -->
-    <div class="content">
-
+      <!-- Main content -->
+      <div class="content">
         <h1>Fyll inn informasjon</h1>
 
         <!-- Skriv in navn -->
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                    <label for="navn" id="labelnavn">Navn:
-                    <input type="text" name="navn" id="inputnavn" placeholder="Vennligst skriv inn navn" required autofocus>
-                    </label>
-                </div>
+        <form action="" method="get" class="form-example">
+          <div class="form-example">
+            <label for="navn" id="labelnavn"
+              >Navn:
+              <input
+                type="text"
+                name="navn"
+                id="inputnavn"
+                placeholder="Vennligst skriv inn navn"
+                required
+                autofocus
+              />
+            </label>
+          </div>
 
-                <!-- Skriv in epost -->
-                <div class="form-example">
-                    <label for="epost" id="labelepost">Epost:
-                    <input type="email" name="epost" id="inputepost" placeholder="Vennligst skriv inn epost" required>
-                    </label>
-                </div>
+          <!-- Skriv in epost -->
+          <div class="form-example">
+            <label for="epost" id="labelepost"
+              >Epost:
+              <input
+                type="email"
+                name="epost"
+                id="inputepost"
+                placeholder="Vennligst skriv inn epost"
+                required
+              />
+            </label>
+          </div>
 
-                <!-- Skriv inn alder -->
-                <div>
-                    <label for="alder" id="labelalder">Alder:
-                        <input type="number" name="alder" id="inputalder" max="100" min="10" placeholder="Vennligst skriv inn alder">
-                    </label>
-                </div>
+          <!-- Skriv inn alder -->
+          <div>
+            <label for="alder" id="labelalder"
+              >Alder:
+              <input
+                type="number"
+                name="alder"
+                id="inputalder"
+                max="100"
+                min="10"
+                placeholder="Vennligst skriv inn alder"
+              />
+            </label>
+          </div>
 
-    <button type="submit" id="btnLagre">Lagre</button>
+          <button type="submit" id="btnLagre">Lagre</button>
 
-                <div class="form-example">
-                    <input type="submit" value="Hent ID">
-                </div>
+          <div class="form-example">
+            <input type="submit" value="Hent ID" />
+          </div>
 
-            <!-- Innadvendt eller utadvendt -->
-            <div class="ioru">
-                <div class="left"> <label for="ioru">Innadvendt</label> </div>
-                <input type="range" id="ioru" name="ioru" value="50" min="0"
-                max="100" step="1" class="slider">
-                <div class="right"> <label for="ioru">Utadvendt</label> </div>
-            </div>
+          <!-- Innadvendt eller utadvendt -->
+          <div class="ioru">
+            <div class="left"><label for="ioru">Innadvendt</label></div>
+            <input
+              type="range"
+              id="ioru"
+              name="ioru"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="ioru">Utadvendt</label></div>
+          </div>
 
-            <!-- Jobbe fysisk eller digitalt -->
-            <div class="ford">
-                <div class="left"> <label for="ford">Jobbe fysisk</label> </div>
-                <input type="range" id="ford" name="ford" value="50" min="0"
-                       max="100" step="1" class="slider">
-                <div class="right"> <label for="ford">Jobbe digitalt</label> </div>
-            </div>
+          <!-- Jobbe fysisk eller digitalt -->
+          <div class="ford">
+            <div class="left"><label for="ford">Jobbe fysisk</label></div>
+            <input
+              type="range"
+              id="ford"
+              name="ford"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="ford">Jobbe digitalt</label></div>
+          </div>
 
-             <!-- Leder-olle eller følge-rolle -->
-            <div class="lorf">
-                 <div class="left"> <label for="lorf">Liker å lede</label> </div>
-                <input type="range" id="lorf" name="lorf" value="50" min="0"
-                   max="100" step="1" class="slider">
-                <div class="right"> <label for="lorf">Liker å følge</label> </div>
-            </div>
-             
-             <!-- Prossess eller Resultat -->
-            <div class="pors">
-                <div class="left"> <label for="porr">Prossess</label> </div>
-                <input type="range" id="porr" name="porr" value="50" min="0"
-                   max="100" step="1" class="slider">
-                <div class="right"> <label for="porr">Resultat</label> </div>
-            </div>
+          <!-- Leder-olle eller følge-rolle -->
+          <div class="lorf">
+            <div class="left"><label for="lorf">Liker å lede</label></div>
+            <input
+              type="range"
+              id="lorf"
+              name="lorf"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="lorf">Liker å følge</label></div>
+          </div>
 
-            <!-- Forberedt eller spontan -->
-            <div class="fors">
-                <div class="left"> <label for="fors"> Forberedt</label> </div>
-                <input type="range" id="fors" name="fors" value="50" min="0"
-                   max="100" step="1" class="slider">
-                <div class="right"> <label for="fors">Spontant</label> </div>
-            </div>
+          <!-- Prossess eller Resultat -->
+          <div class="pors">
+            <div class="left"><label for="porr">Prossess</label></div>
+            <input
+              type="range"
+              id="porr"
+              name="porr"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="porr">Resultat</label></div>
+          </div>
 
-            <!-- Morgenfugl eller Nattugle -->
-            <div class="mork">
-                <div class="left"> <label for="mork">Morgenfugl</label> </div>
-                <input type="range" id="mork" name="mork" value="50" min="0"
-                max="100" step="1" class="slider">
-                <div class="right"> <label for="mork">Nattugle</label> </div>
-            </div>
+          <!-- Forberedt eller spontan -->
+          <div class="fors">
+            <div class="left"><label for="fors"> Forberedt</label></div>
+            <input
+              type="range"
+              id="fors"
+              name="fors"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="fors">Spontant</label></div>
+          </div>
 
-            <!-- Møtes på skolen eller møtes annen plass -->
-            <div class="sorm">
-                <div class="left"> <label for="sorm">Møtes på skolen</label> </div>
-                <input type="range" id="sorm" name="sorm" value="50" min="0"
-                max="100" step="1" class="slider">
-                <div class="right"> <label for="sorm">Annen plass</label> </div>
-            </div>
+          <!-- Morgenfugl eller Nattugle -->
+          <div class="mork">
+            <div class="left"><label for="mork">Morgenfugl</label></div>
+            <input
+              type="range"
+              id="mork"
+              name="mork"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="mork">Nattugle</label></div>
+          </div>
 
-            <!-- Fast arbeidstid eller fleksibel arbeidstid -->
-            <div class="forf">
-                <div class="left"> <label for="forf">Fast arbeidstid</label> </div>
-                <input type="range" id="forf" name="forf" value="50" min="0"
-                max="100" step="1" class="slider">
-                <div class="right"> <label for="forf">Fleksibel tid</label> </div>
-            </div>
-                
-            </form>
+          <!-- Møtes på skolen eller møtes annen plass -->
+          <div class="sorm">
+            <div class="left"><label for="sorm">Møtes på skolen</label></div>
+            <input
+              type="range"
+              id="sorm"
+              name="sorm"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="sorm">Annen plass</label></div>
+          </div>
 
-            <!-- Visuelle av data ID -->
-            <div class="id">
-                <label> Kopier id: <input type="text" value="timetrxid" id="timetrxidCOPY" style="width: 400px"></label>
-            </div>
+          <!-- Fast arbeidstid eller fleksibel arbeidstid -->
+          <div class="forf">
+            <div class="left"><label for="forf">Fast arbeidstid</label></div>
+            <input
+              type="range"
+              id="forf"
+              name="forf"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="slider"
+            />
+            <div class="right"><label for="forf">Fleksibel tid</label></div>
+          </div>
+        </form>
 
-            <div class="results">
-                <pre></pre>
-            </div>
+        <!-- Visuelle av data ID -->
+        <div class="id">
+          <label>
+            Kopier id:
+            <input
+              type="text"
+              value="timetrxid"
+              id="timetrxidCOPY"
+              style="width: 400px"
+          /></label>
+        </div>
+
+        <div class="results">
+          <pre></pre>
+        </div>
 
         <!-- Script -->
         <script>
-            <!-- Lagring-av-data -->
-            var timetrxidCOPY=document.getElementById("timetrxidCOPY");
-            var btnLagre=document.getElementById("btnLagre");
+          <!-- Lagring-av-data -->
+          var timetrxidCOPY = document.getElementById("timetrxidCOPY");
+          var btnLagre = document.getElementById("btnLagre");
 
-            timetrxidCOPY.hidden=true;
+          timetrxidCOPY.hidden = true;
 
-            btnLagre.onclick=function (){
-                timetrxidCOPY.hidden=false;
-            }
+          btnLagre.onclick = function () {
+            timetrxidCOPY.hidden = false;
+          };
 
-             
-             
-            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-02)
-            // Example POST method implementation using fetch:
-            async function postData(url = '', data = {}) {
-                // Default options are marked with *
-                const response = await fetch(url, {
-                    method: 'POST', // *GET, POST, PUT, DELETE, etc.
-                    mode: 'cors', // no-cors, *cors, same-origin
-                    cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
-                    credentials: 'same-origin', // include, *same-origin, omit
-                    headers: {
-                        'Content-Type': 'application/json',
-                        // 'Content-Type': 'application/x-www-form-urlencoded',
-                    },
-                    redirect: 'follow', // manual, *follow, error
-                    referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-                    body: JSON.stringify(data) // body data type must match"Content-Type"header
-                });
-                return response.json(); // parses JSON response into native JavaScriptobjects
-            }
+          // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2022-11-02)
+          // Example POST method implementation using fetch:
+          async function postData(url = "", data = {}) {
+            // Default options are marked with *
+            const response = await fetch(url, {
+              method: "POST", // *GET, POST, PUT, DELETE, etc.
+              mode: "cors", // no-cors, *cors, same-origin
+              cache: "no-cache", // *default, no-cache, reload, force-cache,only-if-cached
+              credentials: "same-origin", // include, *same-origin, omit
+              headers: {
+                "Content-Type": "application/json",
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+              },
+              redirect: "follow", // manual, *follow, error
+              referrerPolicy: "no-referrer", // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+              body: JSON.stringify(data), // body data type must match"Content-Type"header
+            });
+            return response.json(); // parses JSON response into native JavaScriptobjects
+          }
 
-            function handleSubmit(event) {
-                event.preventDefault();
-                const data = new FormData(event.target);
-                const formJSON = Object.fromEntries(data.entries());
-                const results = document.querySelector('.results pre');
-                postData('https://bacit.info/', formJSON)
-                    .then(data => {
-                        results.innerText = JSON.stringify(data, null, 2);
-                        timetrxidCOPY.value=data.time+"-"+data.trxid;
-                    });
-            }
-            const form = document.querySelector('form');
-            form.addEventListener('submit', handleSubmit);
+          function handleSubmit(event) {
+            event.preventDefault();
+            const data = new FormData(event.target);
+            const formJSON = Object.fromEntries(data.entries());
+            const results = document.querySelector(".results pre");
+            postData("https://bacit.info/", formJSON).then((data) => {
+              results.innerText = JSON.stringify(data, null, 2);
+              timetrxidCOPY.value = data.time + "-" + data.trxid;
+            });
+          }
+          const form = document.querySelector("form");
+          form.addEventListener("submit", handleSubmit);
         </script>
-
+      </div>
     </div>
-
-
-</div>
-</body>
-
+  </body>
 </html>

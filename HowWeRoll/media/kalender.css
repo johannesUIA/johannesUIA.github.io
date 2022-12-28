@@ -46,8 +46,8 @@
 }
 
 /*--- Navigation bar light up on click---*/
-.navbar ul li a:hover:active{
-  color: #D0002D;
+.navbar ul li a:hover:active {
+  color: #d0002d;
 }
 
 /*---Logo style---*/
@@ -126,7 +126,6 @@ button:hover span {
 button:hover {
   border: none;
 }
-
 
 .calendar-wrapper {
   display: flex;
@@ -265,5 +264,5 @@ button {
 
 #display-month {
   text-transform: capitalize;
-  color: #ffffff
+  color: #ffffff;
 }
