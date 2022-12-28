@@ -1,5 +1,3 @@
-
-
 let nav = 0;
 let clicked = null;
 let events = localStorage.getItem("events")
@@ -12,7 +10,7 @@ const modalDeleteEvent = document.getElementById("modal-delete-event");
 const backDrop = document.getElementById("modal-backdrop");
 const inputEventTitle = document.getElementById("input-event-title");
 
-<!-- la denne stå på engelsk fordi den er konstant og koplet mot tidssone--!>
+// La denne stå på engelsk fordi den er konstant og koplet mot tidssone
 const weekdays = [
   "Monday",
   "Tuesday",
@@ -26,7 +24,6 @@ const weekdays = [
 function openModal(date) {
   clicked = date;
 
-  
   const eventForDay = events.find((e) => e.date === clicked);
 
   if (eventForDay) {
@@ -60,7 +57,7 @@ function load() {
     day: "numeric",
   });
 
-  <!-- Padding days er tomme bokser med dager fra første og siste uke i måneden -->
+  //Padding days er tomme bokser med dager fra første og siste uke i måneden
   const paddingDays = weekdays.indexOf(dateString.split(", ")[0]);
 
   document.getElementById("display-month").innerText = `${dt.toLocaleDateString(
@@ -82,7 +79,6 @@ function load() {
       daySquare.innerText = i - paddingDays;
       const eventForDay = events.find((e) => e.date === dayString);
 
-   
       if (i - paddingDays === day && nav === 0) {
         daySquare.id = "currentDay";
       }
@@ -147,7 +143,9 @@ function initButtons() {
   });
 
   document.getElementById("button-save").addEventListener("click", saveEvent);
-  document.getElementById("button-cancel").addEventListener("click", closeModal);
+  document
+    .getElementById("button-cancel")
+    .addEventListener("click", closeModal);
   document
     .getElementById("button-delete")
     .addEventListener("click", deleteEvent);
